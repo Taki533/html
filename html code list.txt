@@ -1,0 +1,27 @@
+<!--komment-->  ez egy komment ez nem fut le
+
+<!DOCTYPE> dokumentum típus
+
+<a> </a> hyper link készítés;inline típus
+tulajdonságai:
+href (hovamutat) 
+target(hol nyílikmeg)
+
+<adress> blokk típus; cím infokat tárol
+
+<article> blokk típusu elem; tartalom kerülbele
+
+<aside> blokk típusuelem; elkülönített tartalom; gyakran az oldalsó sávban helyezkedik el
+
+<audio> hangokbeállítása
+tulajdonságai:
+source (ebben kell megadni a hangokat)
+
+<b> félkövér; inline típus
+
+<base> headban helyezkedik el relatív hivatkozások alapját adja meg
+
+<blockquote> blokk típus; idézet megjelnítésre szolgál>
+tulajdonságai:
+cite (idézet forrása)
+<body>
