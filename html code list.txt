@@ -2,26 +2,59 @@
 
 <!DOCTYPE> dokumentum típus
 
-<a> </a> hyper link készítés;inline típus
-tulajdonságai:
-href (hovamutat) 
-target(hol nyílikmeg)
+- <a> </a> hyper link készítés;inline típus
+	- tulajdonságai:
+		- href (hovamutat) 
+		- target(hol nyílikmeg)
 
-<adress> blokk típus; cím infokat tárol
+- <adress> blokk típus; cím infokat tárol
 
-<article> blokk típusu elem; tartalom kerülbele
+- <article> blokk típusu elem; tartalom kerülbele
 
-<aside> blokk típusuelem; elkülönített tartalom; gyakran az oldalsó sávban helyezkedik el
+- <aside> blokk típusuelem; elkülönített tartalom; gyakran az oldalsó sávban helyezkedik el
 
-<audio> hangokbeállítása
-tulajdonságai:
-source (ebben kell megadni a hangokat)
+- <audio> hangokbeállítása
+	- tulajdonságai:
+		- source (ebben kell megadni a hangokat)
 
-<b> félkövér; inline típus
+- <b> félkövér; inline típus
 
-<base> headban helyezkedik el relatív hivatkozások alapját adja meg
+- <base> headban helyezkedik el relatív hivatkozások alapját adja meg
 
-<blockquote> blokk típus; idézet megjelnítésre szolgál>
-tulajdonságai:
-cite (idézet forrása)
-<body>
+- <blockquote> blokk típus; idézet megjelnítésre szolgál>
+	- tulajdonságai:
+		- cite (idézet forrása)
+
+- <body> a body a html oldal teste a megjelenítendő adatok kerülnek ide 
+
+- <br> bekezdésen belelüli sortörés; inline elem nincs zárótag
+
+- <button> ürlap(form) elem
+	- tulajdonságai:
+		- name (válzozó neve)
+		- type (típusa: button; reset; submit (beküldőgomb)
+		- value (gomb értéke és szövege)
+
+- <canvas> blokk típusu elem rajzolni lehet rá
+
+- <caption> a táblázat címe felirata
+
+- <cite> a munka címét definiálja
+
+- <code> a programkódot jelenítjük meg ebben
+
+- <data> adatokat lehet megadni kódokhoz jacascriptben
+
+- <datalist> adatlista  
+
+- <dd> discription list leírása
+
+- <del> inline elem törölt rész jelzésére alapesetben áthúzott
+
+- <div> általános célu blokk elem
+
+- <dl> discription list (leírólista)
+
+- <dt> discritption title (leíró lista címe>
+
+- <em> nyomatékosítás; dőlt 
