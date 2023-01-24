@@ -145,4 +145,37 @@
 
 - <td> táblázat cellája
 
-- <
+- <th> tábla fejléc cella
+
+- <title> a weboldal címe headbe kerül böngésző tabon jelenik meg
+
+- <track> auido és videó elemekhez ad sávot pl: feliratot
+
+- <u> aláhúzás
+
+- <ul> rendezetlen lista definiálása
+
+- <video> videó hozzáadása
+	-tulajdonságai:
+		- width
+		- height
+		- controls
+		- autoplay
+		- loop (ismétli a videót)
+
+- <wbr> lehetséges sortörés
+
+SPECIÁLIS JELEK
+
+- neve van pl: &euro;= €
+
+- decimális számkód pl &#8364= €
+
+- hexadecimális kód &#x20AC;
+
+pl &copy; copy right sing
+&reg rigistered sing
+&trade trademark 
+&gt drater then kacsa csőr
+&quot idéző jel
+&nbsp nem törő szóköz  
