@@ -1,72 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>sakk</title>
     <style>
-        body {
-            background-image: url(./images.jfif) ;
+        body{
+            background-color: blanchedalmond;
         }
-        .fekete {
-background-color: black;
-        }
-td {
-    width: 85px;
-    height: 85px;
-    background-color: white;
-    border: 1px solid black;
-    text-align: center;
-}
 
-table {
-    margin: auto;
-    border: 3px solid;
-    border-collapse: collapse;
-}
- .FeherBastya {
-    background-image: url(./sakk.png);
-    background-size: 235px 300px;
-    background-position: 31% 100%;
- }
+        .fekete 
+        {
+            background-color: black;
+        }
+
+        td
+        {
+            width: 75px;
+            height: 75px;
+            background-color: white;
+            border:1px solid black;
+            text-align: center;
+
+            text-transform: uppercase;
+
+            background-repeat: no-repeat;
+        }
+
+        table{
+            border: 3px solid gray(201, 37, 37);
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        .feherBastya,.feherFuto,.feherLo,.feherVezer,.feherKiraly,.feherGyalog,
+        .feketeBastya,.feketeFuto,.feketeLo,.feketeVezer,.feketeKiraly,.feketeGyalog
+        {
+            background-image: url(./sakk.png);
+            background-size: 300% 300%;
+
+        }
+
+        .feherBastya { background-position: 30% 103%; }
+        .feherFuto {  background-position: 70% 103%;  }
+        .feherLo { background-position: -10% 103%; }
+        .feherVezer { background-position: 110% 53%;}
+        .feherKiraly{  background-position: 70% 50%; }
+        .feherGyalog { background-position: 110% 103%;}
+        .feketeBastya {background-position: 70% -5%;}
+        .feketeLo {background-position: 110% -5%;}
+        .feketeFuto {background-position: 30% -5%;}
+        .feketeVezer {background-position: -10% 53%;}
+        .feketeKiraly {background-position: 30% 50%;}
+        .feketeGyalog {background-position: -10% -5%;}
+
+
     </style>
 </head>
-<body>
-   <!-- <img src="./sakk.png"> -->
+<body onload="init()"s>
+    <script>
+        var sorszam=0;
+        var elso;
+        function kattint(elem)
+        {
+            //console.log (elem)
+            if(sorszam==0)
+            {
+                if(elem.dataset["babu"]!="")
+                {
+                    elso=elem;
+                     sorszam++;
+                }
+            }
+            else
+            {
+                //lerakas
+                elem.classList.add(elso.dataset["babu"]);
+                elem.dataset["babu"]=elso.dataset["babu"];
+
+                //régi törlése
+                elso.classList.remove(elso.dataset["babu"]);
+                elso.dataset["babu"]="";
+
+
+                sorszam=0
+            }
+
+            console.log (sorszam);
+        }
+
+        function init()
+
+        {
+            let cellak=document.querySelectorAll("td");
+
+            for(let i=0; i<cellak.lenght;i++)
+            {
+                cellak [i] .addEventListener("click",function() {kattint (this); })
+            }
+        }
+    </script>
+    <!--img src="sakk.png"--> 
     <table>
         <tr>
-            <td></td>
-            <td>A</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-            <td>E</td>
-            <td>F</td>
-            <td>G</td>
-            <td>H</td>
+            <td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td>
         </tr>
         <tr>
             <td>1</td>
-            <td class="fekete FeherBastya"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
+            <td class="fekete feherBastya" data-babu="feherBastya"></td>
+            <td class="feherLo" data-babu="feherLo"></td>
+            <td class="fekete feherFuto" data-babu="feherFuto"></td>
+            <td class="feherVezer" data-babu="feherVezer"></td>
+            <td class="fekete feherKiraly" data-babu="feherKiraly"></td>
+            <td class="feherFuto" data-babu="feherFuto"></td>
+            <td class="fekete feherLo" data-babu="feherLo"></td>
+            <td class="feherBastya" data-babu="feherBastya"></td>
         </tr>
         <tr>
             <td>2</td>
-            <td></td>
-            <td class="fekete">2</td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
         </tr>
         <tr>
             <td>3</td>
@@ -75,19 +135,19 @@ table {
             <td class="fekete"></td>
             <td></td>
             <td class="fekete"></td>
-            <td></td>
+            <td ></td>
             <td class="fekete"></td>
-            <td></td>
+            <td ></td>
         </tr>
         <tr>
             <td>4</td>
-            <td></td>
-            <td class="fekete">2</td>
-            <td></td>
+            <td ></td>
             <td class="fekete"></td>
-            <td></td>
+            <td ></td>
             <td class="fekete"></td>
-            <td></td>
+            <td ></td>
+            <td class="fekete"></td>
+            <td ></td>
             <td class="fekete"></td>
         </tr>
         <tr>
@@ -97,44 +157,43 @@ table {
             <td class="fekete"></td>
             <td></td>
             <td class="fekete"></td>
-            <td></td>
+            <td ></td>
             <td class="fekete"></td>
-            <td></td>
+            <td ></td>
         </tr>
         <tr>
             <td>6</td>
-            <td></td>
-            <td class="fekete">2</td>
-            <td></td>
+            <td ></td>
             <td class="fekete"></td>
-            <td></td>
+            <td ></td>
             <td class="fekete"></td>
-            <td></td>
+            <td ></td>
+            <td class="fekete"></td>
+            <td ></td>
             <td class="fekete"></td>
         </tr>
         <tr>
             <td>7</td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
+            <td class="fekete feketeGyalog"></td>
+            <td class="feketeGyalog"></td>
+            <td class="fekete feketeGyalog"></td>
+            <td class="feketeGyalog"></td>
+            <td class="fekete feketeGyalog"></td>
+            <td class="feketeGyalog"></td>
+            <td class="fekete feketeGyalog"></td>
+            <td class="feketeGyalog"></td>
         </tr>
         <tr>
             <td>8</td>
-            <td></td>
-            <td class="fekete">2</td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
+            <td class="feketeBastya" ></td>
+            <td class="fekete feketeLo"></td>
+            <td class="feketeFuto"></td>
+            <td class="fekete feketeVezer"></td>
+            <td class="feketeKiraly"></td>
+            <td class="fekete feketeFuto"></td>
+            <td class="feketeLo"></td>
+            <td class="fekete feketeBastya"></td>
         </tr>
-
     </table>
 </body>
 </html>
