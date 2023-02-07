@@ -58,24 +58,32 @@
 
     </style>
 </head>
-<body onload="init()"s>
+<body onload="init()">
     <script>
         var sorszam=0;
         var elso;
         function kattint(elem)
         {
-            //console.log (elem)
+            console.log (elem)
             if(sorszam==0)
             {
-                if(elem.dataset["babu"]!="")
+                if(elem.dataset["babu"] && elem.dataset["babu" ]!="")
                 {
                     elso=elem;
                      sorszam++;
+                     console.log(elem)
+                     console.log(elem.dataset ["babu"]!="")
                 }
             }
-            else
+            else if(elem!==elso) //saját magára rakás fix
+
             {
-                //lerakas
+                         //-----ÚJ-----
+            //ha ott van akkor törölni kell
+            if(elem.dataset["babu"]!="")
+            {
+                elem.classList.remove(elem.dataset["babu"])
+            }   //lerakas
                 elem.classList.add(elso.dataset["babu"]);
                 elem.dataset["babu"]=elso.dataset["babu"];
 
@@ -94,10 +102,11 @@
 
         {
             let cellak=document.querySelectorAll("td");
-
-            for(let i=0; i<cellak.lenght;i++)
+//console.log (cellak);
+            for(let i=0; i<cellak.length;i++)
             {
-                cellak [i] .addEventListener("click",function() {kattint (this); })
+                //console.log(i);
+                cellak [i] .addEventListener("click",function() {kattint(this); })
             }
         }
     </script>
@@ -119,14 +128,14 @@
         </tr>
         <tr>
             <td>2</td>
-            <td class="feherGyalog"></td>
-            <td class="fekete feherGyalog"></td>
-            <td class="feherGyalog"></td>
-            <td class="fekete feherGyalog"></td>
-            <td class="feherGyalog"></td>
-            <td class="fekete feherGyalog"></td>
-            <td class="feherGyalog"></td>
-            <td class="fekete feherGyalog"></td>
+            <td class="feherGyalog" data-babu="feherGyalog"></td>
+            <td class="fekete feherGyalog"data-babu="feherGyalog"></td>
+            <td class="feherGyalog"data-babu="feherGyalog"></td>
+            <td class="fekete feherGyalog"data-babu="feherGyalog"></td>
+            <td class="feherGyalog"data-babu="feherGyalog"></td>
+            <td class="fekete feherGyalog"data-babu="feherGyalog"></td>
+            <td class="feherGyalog"data-babu="feherGyalog"></td>
+            <td class="fekete feherGyalog"data-babu="feherGyalog"></td>
         </tr>
         <tr>
             <td>3</td>
@@ -174,25 +183,25 @@
         </tr>
         <tr>
             <td>7</td>
-            <td class="fekete feketeGyalog"></td>
-            <td class="feketeGyalog"></td>
-            <td class="fekete feketeGyalog"></td>
-            <td class="feketeGyalog"></td>
-            <td class="fekete feketeGyalog"></td>
-            <td class="feketeGyalog"></td>
-            <td class="fekete feketeGyalog"></td>
-            <td class="feketeGyalog"></td>
+            <td class="fekete feketeGyalog" data-babu="feketeGyalog"></td>
+            <td class="feketeGyalog" data-babu="feketeGyalog"></td>
+            <td class="fekete feketeGyalog" data-babu="feketeGyalog"></td>
+            <td class="feketeGyalog" data-babu="feketeGyalog"></td>
+            <td class="fekete feketeGyalog" data-babu="feketeGyalog"></td>
+            <td class="feketeGyalog" data-babu="feketeGyalog"></td>
+            <td class="fekete feketeGyalog" data-babu="feketeGyalog"></td>
+            <td class="feketeGyalog" data-babu="feketeGyalog"></td>
         </tr>
         <tr>
             <td>8</td>
-            <td class="feketeBastya" ></td>
-            <td class="fekete feketeLo"></td>
-            <td class="feketeFuto"></td>
-            <td class="fekete feketeVezer"></td>
-            <td class="feketeKiraly"></td>
-            <td class="fekete feketeFuto"></td>
-            <td class="feketeLo"></td>
-            <td class="fekete feketeBastya"></td>
+            <td class="feketeBastya" data-babu="feketeBastya"></td>
+            <td class="fekete feketeLo" data-babu="feketeLo"></td>
+            <td class="feketeFuto" data-babu="feketeFuto"></td>
+            <td class="fekete feketeVezer" data-babu="feketeVezer"></td>
+            <td class="feketeKiraly" data-babu="feketeKiraly"></td>
+            <td class="fekete feketeFuto" data-babu="feketeFuto"></td>
+            <td class="feketeLo" data-babu="feketeLo"></td>
+            <td class="fekete feketeBastya" data-babu="feketeBastya"></td>
         </tr>
     </table>
 </body>
