@@ -16,7 +16,20 @@ table {
     background-color: #A7FFC3;
     border-spacing: 5px;
 }
+h1 
+{
+    text-align: center;
+}
 .oldal 
 {
 width: 50px;
+}
+
+.menüsor 
+{   
+    height: 125px;
+}
+.keret 
+{
+    border: 1px solid black;
 }
