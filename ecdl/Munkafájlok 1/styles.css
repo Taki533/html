@@ -2,6 +2,8 @@
 
 body{
     color: #000000;
+    font-family: Tahoma ,sans-serif;
+    background-color: #fff2e8;
 }
 
 .kep{
@@ -22,7 +24,7 @@ body{
     text-decoration: none;
 }
 #menu a:hover{
-    color: green;
+    color: red;
     text-decoration: none;
 }
 
