@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Palmerius étterem</title>
+</head>
+<body>
+    <div id="fejlec">
+        <div>
+            <h1>Palmerius étterem</h1>
+            <p>Budapest, XXIV. ker. Fő u. 302. Telefon: +36 (1) 3210-9876. E-mail: info [kukac] palmeriusetterem [pont] hu.</p>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="foglalas.html"><span>Asztalfoglalás</span></a></li>
+                <li><a href="spec.html">Specialitások</a></li>
+                <li><a href="business.html">Business Lunch Menu</a></li>
+                <li><a href="galeria.html">Galéria</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="tartalom">
+        <div>
+            <p>Kérjük, töltse ki az űrlapot!</p>
+            <form method="post">
+            <fieldset>
+                <legend>Asztal foglalás</legend>
+                <div class="mezosor">
+                    <div class="cimke">Név:</div>
+                    <div class="mezo"><input type="text" name="nev" value=""></div>
+                </div>
+                <div class="mezosor">
+                    <div class="cimke">Személyek száma:</div>
+                    <div class="mezo">
+                        <select name="szemszam">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mezosor">
+                    <div class="cimke">Melyik napra?</div>
+                    <div class="mezo">
+                        <input type="radio" name="nap" value="ma" id="napma">mai napra<br>
+                        <input type="radio" name="nap" value="holnap" id="napholnap">holnapra<br>
+                        <input type="radio" name="nap" value="hutan" id="naphutan">holnap utánra
+                    </div>   
+                </div>
+                <div class="mezosor">
+                    <div class="cimke">Hány órára?</div>
+                    <div class="mezo">
+                        <select name="ora">
+                            <option value="0">- válasszon -</option>
+                            <option value="1600">16:00</option>
+                            <option value="1630">16:30</option>
+                            <option value="1700">17:00</option>
+                            <option value="1730">17:30</option>
+                            <option value="1800">18:00</option>
+                            <option value="1830">18:30</option>
+                            <option value="1900">19:00</option>
+                            <option value="1930">19:30</option>
+                            <option value="2000">20:00</option>
+                            <option value="2030">20:30</option>
+                        </select>
+                    </div>   
+                </div>
+                <div class="mezosor">
+                    <div class="cimke">&nbsp;</div>
+                    <div class="mezo">
+                        <input type="checkbox" name="nemdohanyzo" value="1" id="nemdohanyzo" checked><label for="nemdohanyzo">Füstmentes helyet kérek.</label><br>
+                    </div>
+                </div>
+                <div class="mezosor">
+                    <div class="cimke">Megjegyzés:</div>
+                    <div class="mezo"><textarea name="megjegyzes" rows="5" cols="40">Ide írja a megjegyzéseit.</textarea></div>
+                </div>
+                <div class="mezosor">
+                    <div class="cimke">&nbsp;</div>
+                    <div class="mezo"><input type="submit" name="submit" value="submit"> <input type="reset" name="vissza" value="adatok törlése"></div>
+                </div>
+            </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

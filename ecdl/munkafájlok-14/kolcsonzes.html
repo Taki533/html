@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Drive-This autókölcsönző</title>
+</head>
+<body>
+    <div id="felso">
+        <div id="logo"><a href="index.html"><img src="dtlogo.jpg" title="vissza a főoldalra"></a></div>
+        <div id="menu">
+            <p><a href="index.html">Nyitólap</a></p>
+            <p><a href="autok.html">Autók</a></p>
+            <p><a href="kolcsonzes.html" class="aktiv">Kölcsönzés</a></p>
+            <p><a href="partnerek.html">Partnereink</a></p>
+        </div>
+    </div>
+    <div id="foresz">
+        <form>
+            <fieldset>
+                <legend>Kölcsönzéshez töltse ki az alábbi űrlapot!</legend>
+                <div>
+                    <div>Név:</div>
+                    <div><input type="text" name="nev"></div>
+                </div>
+                <div>
+                    <div>Cím:</div>
+                    <div><input type="text" name="cim"></div>
+                </div>
+                <div>
+                    <div>Milyen kategóriájú autót szeretne kölcsönözni?</div>
+                    <div>
+                        <input type="radio" name="kategoria" value="A" id="kat_A"> A<br>
+                        <input type="radio" name="kategoria" value="B" id="kat_B"> B<br>
+                        <input type="radio" name="kategoria" value="C" id="kat_C"> C
+                    </div>
+                </div>
+                <div>
+                    <div>Milyen típusú autót szeretne kölcsönözni?</div>
+                    <div>
+                        <select name="autotipus">
+                            <option value="">- válasszon -</option>
+                            <option value="bmw">BMW</option>
+                            <option value="fiat">Fiat</option>
+                            <option value="ford">Ford</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="opel">Opel</option>
+                            <option value="renault">Renault</option>
+                            <option value="rollsroyce">Rolls-Royce</option>
+                            <option value="skoda">Skoda</option>
+                            <option value="suzuki">Suzuki</option>
+                            <option value="toyota">Toyota</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div>Megjegyzés:</div>
+                    <div><textarea name="megjegyzes" rows="8" cols="40"></textarea></div>
+                </div>
+                <div>
+                    <div><input type="submit" name="submit" value="submit"></div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

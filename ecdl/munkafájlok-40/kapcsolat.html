@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>DJ Suli</title>
+</head>
+<body>
+    <div id="lap">
+        <div id="cim">
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Rólunk</a></li>
+                <li><a href="oktatok.html">Oktatók</a></li>
+                <li><a href="tanfolyamok.html">Tanfolyamok</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </div>
+        <div id="szoveg">
+            <h1>Kapcsolat</h1>
+            <p>Címünk: 1345, Budapest, Csokigyár út 33-45. E-mail: djsuli@djsuli.hu</p>
+            <p>Amennyiben kérdésed, észrevételed van, az alábbi űrlap segítségével elküldheted nekünk azt. Kérjük, hogy pontosan add meg az e-mail címed, különben nem tudunk kapcsolatba lépni veled.</p>
+            <form>
+                <fieldset>
+                    <div class="mezo-sor">
+                        <div class="mezo-cimke">Név</div>
+                        <div class="mezo-elem"><input type="text" name="nev"></div>
+                    </div>
+                    <div class="mezo-sor">
+                        <div class="mezo-cimke">Email cím</div>
+                        <div class="mezo-elem"><input type="text"></div>
+                    </div>
+                    <div class="mezo-sor">
+                        <div class="mezo-cimke">Tanfolyam</div>
+                        <div class="mezo-elem">
+                            <input type="radio" name="tanfolyam" value="kezdo" id="tanfolyam-kezdo"> Kezdő<br>
+                            <input type="radio" name="tanfolyam" value="halado" id="tanfolyam-halado"> Haladó<br>
+                            <input type="radio" name="tanfolyam" value="profi" id="tanfolyam-profi"> Profi
+                        </div>
+                    </div>
+                    <div class="mezo-sor">
+                        <div class="mezo-cimke">Üzenet</div>
+                        <div class="mezo-elem"><textarea name="uzenet"></textarea></div>
+                    </div>
+                    <div class="mezo-gomb"><input type="button" name="mehet" value="mehet"> <input type="reset" name="torles" value="Törlés"></div>
+                </fieldset>
+            </form>
+    
+        </div>
+    </div>
+</body>
+</html>

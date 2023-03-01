@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Flavors" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+</head>
+
+    <div id="fejlec">
+        <h1>Cape Hotel</h1>
+        <h2>Marina de la Algarve</h2>
+    </div>
+    <div id="menu">
+        <h3>Menü</h3>
+        <ul>
+            <li><a href="index.html">Rólunk</a></li>
+            <li><a href="szobak.html">Szobák</a></li>
+            <li id="aktiv"><a href="szolg.html">Szolgáltatások</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            <li><a href="foglalas.html">Foglalás</a></li>
+        </ul>
+    </div>
+    <div id="tartalom">
+        <div class="figure"><img src="pool" alt="medence"></div>
+        <h3>Szolgáltatások</h3>
+        <p>A Cape Hotel-ben mindent megtalál, amire csak szüksége lehet. Próbálja ki különféle szolgáltatásainkat és engedje, hogy rabul ejtse e csodás hely.</p>
+        <div class="clear"></div>
+        <p><b>Szolgáltatásaink:</b></p>
+
+        Szauna
+        Masszázs
+        Szépségszalon
+        Fodrászat
+        Jacuzzi
+        Török fürdő
+        Edzőterem
+        Medencebár
+        Aromaterápia
+
+    </div>
+    <div class="clear"></div>
+    <div id="lablec">
+        <p>Minden jog fenntartva.</p>
+    </div>
+</html>

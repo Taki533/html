@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Patina Antikvárium</title>
+</head>
+<body>
+    <div id="honlap">
+        <div id="honlap_cim"></div>
+        <div id="honlap_felso">
+            <div id="menu1"><a href="index.html">Bemutatkozás</a></div>
+            <div id="menu2"><a href="katalogus.html">Katalógus</a></div>
+            <div id="menu3"><a href="adokveszek.html">Adok-veszek</a></div>
+            <div id="menu4"><a href="megrendeles.html">Megrendelés</a></div>
+        </div>
+        <div id="honlap_kozepso">
+            <div id="tartalom">
+                <h1>Megrendelés</h1>
+                <form>
+                    <fieldset>
+                        <legend>Megrendeléshez töltse ki az alábbi űrlapot!</legend>
+                        <div class="form_sor">
+                            <div class="form_cimke">Név</div>
+                            <div class="form_elem"><input type="text" name="nev"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="form_sor">
+                            <div class="form_cimke">Email cím</div>
+                            <div class="form_elem"><input type="text" name="email"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="form_sor">
+                            <div class="form_cimke">Kategória</div>
+                            <div class="form_elem">
+                                <input type="radio" name="kategoria" value="eletrajz" id="eletrajz"> <label for="eletrajz">Életrajz</label><br>
+                                <input type="radio" name="kategoria" value="metszet" id="metszet"> Metszet<br>
+                                <input type="radio" name="kategoria" value="terkep" id="terkep"> Térkép<br>
+                                <input type="radio" name="kategoria" value="lexikon" id="lexikon"> Lexikon<br>
+                                <input type="radio" name="kategoria" value="szepirodalom" id="szepirodalom"> Szépirodalmi mű<br>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="form_sor">
+                            <div class="form_cimke">Üzenet</div>
+                            <div class="form_elem"><input type="text" name="uzenet"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="form_sor">
+                            <div class="form_cimke">&nbsp;</div>
+                            <div class="form_elem"><input type="submit" name="kuld" value="küldés"></div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div id="honlap_also"></div>
+    </div>
+</body>
+</html>

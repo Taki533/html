@@ -1,0 +1,85 @@
+body{
+    background-color: #ffe58b;
+    margin: 0;
+    font-family: verdana, sans-serif;
+    font-size: 13px;
+}
+
+#fejlec{
+    width: 710px;
+    height: 112px;
+    margin: 0 auto;
+    background: url('header.jpg') no-repeat;
+}
+
+
+#menu{
+    background: url('spacer.jpg') repeat-x;
+    height: 30px;
+    padding: 7px;
+}
+
+.menu-center{
+    margin: 0 auto;
+    width: 720px;
+}
+
+#menu a,
+#menu a:link,
+#menu a:visited{
+    font-weight: bold;
+    color: white;
+    margin: 0 50px;
+    text-decoration: none;
+}
+#menu a:hover{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
+}
+
+#tartalom{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#tartalom h1{
+    text-align: left;
+}
+p img{
+    float: right;
+    width: 150px;
+}
+
+table{
+    border: 1px solid white;
+}
+caption{
+    padding: 5px;
+    border: 1px solid white;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.6em;
+    font-variant: small-caps;
+}
+th, td{
+    text-align: left;
+    padding: 3px 6px;
+}
+
+dt{
+    font-size: 1.3em;
+}
+dd{
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+li{
+    list-style-type: square;
+}
+
+input[type='submit'],
+input[type='reset']{
+    font-weight: bold;
+    width: 150px;
+}

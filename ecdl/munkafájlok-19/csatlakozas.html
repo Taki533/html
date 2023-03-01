@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Black Knight Sakk Klub</title>
+</head>
+<body>
+    <div id="oldal">
+        <div id="bal">
+            <div id="cim">
+                <h1>Black Knight</h1>
+                <div class="cimkep"></div>
+                <h2>Sakk Klub</h2>
+            </div>
+            <div id="menu">
+                <p>menü</p>
+                <ul>
+                    <li><a href="index.html">Nyitó oldal</a></li>
+                    <li><a href="kapcsolat.html">Elérhetőség</a></li>
+                    <li><a href="esemenyek.html">Események</a></li>
+                    <li class="aktualis"><a href="csatlakozas.html">Csatlakozás</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="jobb">
+            <h1>Csatlakozás</h1>
+            <form>
+                <fieldset>
+                    <legend>Ha csatlakozni szeretnél a klubunkhoz, töltsd ki az alábbi űrlapot!</legend>
+                    <p>Név<br>
+                        <input type="text" name="nev" value=""></p>
+                    <p>Születési idő<br>
+                        <input type="text" name="szido_ev" value="">.
+                        <select name="szido_ho">
+                            <option value="">- hónap -</option>
+                            <option value="01">január</option>
+                            <option value="02">február</option>
+                            <option value="03">március</option>
+                            <option value="04">április</option>
+                            <option value="05">május</option>
+                            <option value="06">június</option>
+                            <option value="07">július</option>
+                            <option value="08">augusztus</option>
+                            <option value="09">szeptember</option>
+                            <option value="10">október</option>
+                            <option value="11">november</option>
+                            <option value="12">december</option>
+                        </select> 
+                        <input type="text" name="szido_nap" value="">.
+                    </p>
+                    <p>Megjegyzés<br>
+                        <input type="text" name="megj" value=""></p>
+                    <p><input type="submit" name="kuldes" value="Űrlap küldése"></p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

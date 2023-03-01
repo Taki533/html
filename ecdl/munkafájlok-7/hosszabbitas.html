@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Könyvtár</title>
+</head>
+<body>
+    <div id="fejlec">
+        <div id="logo"></div>
+        <div id="cim">
+            <h1>Iskolai Könyvtár</h1>
+            <h2>alapítva: 1814-ben</h2>
+        </div>
+    </div>
+    <div id="kozep">
+        <div id="menu">
+            <h1>Menü:</h1>
+            <ul>
+                <li><a href="index.html">Kezdőoldal</a></li>
+                <li><a href="olvaso.html">Olvasóterem</a></li>
+                <li><a href="katalogus.html">Katalógus</a></li>
+                <li><a href="hosszabbitas.html" class="aktiv">Hosszabbítás</a></li>
+                <li><a href="elojegyzes.html">Előjegyzés</a></li>
+            </ul>
+        </div>
+        <div id="tartalom">
+            <h1>Hosszabbítás</h1>
+            <p>Lejáróban lévő kölcsönzött dokumentumok on-line hosszabbítására is lehetőséget biztosítunk.</p>
+            <p>Kérjük, adja meg olvasójegyének azonosítószámát, valamint a dokumentum kódját.</p>
+            <form>
+                <p>Név:<br>
+                    <input type="text" name="nev" value=""></p>
+                
+                <p>A dokumentum katalógusszáma:<br>
+                    <input type="text" name="dokkat" value=""></p>
+                <p>Hosszabbítás kérés ideje:<br>
+                    <select name="hossz">
+                        <option value="1">1 nap</option>
+                        <option value="2">2 nap</option>
+                        <option value="3">3 nap</option>
+                        <option value="4">4 nap</option>
+                        <option value="5">5 nap</option>
+                    </select>
+                    </p>
+                <p>Egyéb megjegyzés:<br>
+                    <textarea name="megjegyzes" rows="5" cols="40"></textarea></p>
+                <p><input type="submit" name="ok" value="küldés"></p>    
+            </form>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

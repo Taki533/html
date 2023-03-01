@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Izzó Fitnesz Klub</title>
+</head>
+<body>
+    <div id="oldal">
+        <div id="fejlec">
+            <h1>Izzó Fitnesz Klub</h1>
+            <h2>Mottó: Gyere Gyakran Gyúrni ;-)</h2>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="szolg.html">Szolgáltatások</a></li>
+                <li><a href="kapcs.html" class="kivalasztott">Kapcsolat</a></li>
+            </ul>
+        </div>
+        <div id="tartalom">
+            <h1>Kapcsolat</h1>
+            <p class="kep"><img src="fitness_3.jpg"></p>
+            <form>
+                <fieldset>
+                    <legend>Ha kérdése van, írjon nekünk!</legend>
+                    <p>Név<br>
+                    <input type="text" name="nev" value=""></p>
+                    <p>Melyik szolgáltatásunk keltette fel az érdeklődését?<br>
+                    <input type="radio" name="szolg" value="konditerem" id="konditerem"> Konditerem<br>
+                    <input type="radio" name="szolg" value="uszoda" id="uszoda"> Uszoda<br>
+                    <input type="radio" name="szolg" value="szauna" id="szauna"> Szauna</p>
+                    <p>Üzenet<br>
+                    <input type="text" name="uzenet" value=""></p>
+                    <p>&nbsp;<br>
+                    <input type="button" name="button" value="button"></p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

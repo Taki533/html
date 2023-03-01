@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Ukulele zeneiskola</title>
+
+    <div id="tartalom">
+        <div id="fejlec"></div>
+        <div id="kozep">
+            <div id="bal">
+                <a href="index.html" id="menu_bemutatkozas"></a>
+                <a href="kepzeseink.html" id="menu_kepzeseink"></a>
+                <a href="kapcsolat.html" id="menu_kapcsolat"></a>
+                <a href="vendegkonyv.html" id="menu_vendegkonyv"></a>
+            </div>
+            <div id="jobb">
+                <h1>Kapcsolat</h1>
+                <p>
+                    - <b>Székhely:</b><br>
+                    9999 Budapest, Kodály Zoltán u. 76.
+                    
+                    - <b>Levelezési cím:</b><br>
+                    9999 Budapest, Pf. 9999.
+                    
+                    - <b>Telefon / fax:</b><br>
+                    1-234-5678, Mobil: 06/99-9999-999
+                    
+                    - <b>Igazgató:</b><br>
+                    Nagy Dénes
+                    
+                    - <b>Igazgató-helyettes:</b><br>
+                    Takács János
+                    
+                    - <b>Email:</b><br>
+                    titkarsag@ukuleleiskola.hu
+                </p>
+            </div>
+        </div>
+    </div>
+</html>

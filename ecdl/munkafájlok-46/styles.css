@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background-color: #26110c;
+    font-family: Arial, sans-serif;
+}
+#tartalom{
+    background-color: #ead09f;
+    width: 960px;
+    margin:0 auto;
+    min-height: 700px;
+    background-image: url('hangjegyek.gif');
+}
+#fejlec{
+    height: 70px;
+    background-image: url('ukulele_fejlec.jpg');
+    background-repeat: repeat-x;
+    background-position: -75px 0;
+}
+#kozep{
+}
+#bal{
+    float: left;
+    width: 160px;
+}
+#jobb{
+    float: right;
+    width: 800px;
+}
+#menu_bemutatkozas,
+#menu_kepzeseink,
+#menu_kapcsolat,
+#menu_vendegkonyv{
+    display: block;
+    width: 135px;
+    height: 40px;
+    background-color: #fff;
+}
+#menu_bemutatkozas{
+    background-image: url('gomb_bemutatkozas.gif');
+}
+#menu_kepzeseink{
+    background-image: url('gomb_kepzeseink.gif');
+}
+#menu_kapcsolat{
+    background-image: url('gomb_kapcsolat.gif');
+}
+#menu_vendegkonyv{
+    background-image: url('gomb_vendegkonyv.gif');
+}
+
+h1{
+    color: green;
+}
+.kep{
+    text-align: center;
+}
+.kep img{
+    border: 2px solid brown;
+}
+
+
+table{
+    background-color: #e96;
+}
+th{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+th, td{
+    padding: 3px;
+    border: 1px dotted #a33;
+}
+
+.megjegyzes{
+    font-size: 0.6em;
+}
+
+dl{
+    font-size: 1.1em;
+    margin: 5px;
+}
+dt{
+    color: green;
+}
+dd{
+    margin-left: 100px;
+}
+
+.cimke{
+    width: 150px;
+}
+
+fieldset{
+    padding: 0 20px;
+    width: 600px;
+}
+
+input[type='text']{
+    width: 300px;
+}
+

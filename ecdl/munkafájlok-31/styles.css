@@ -1,0 +1,89 @@
+body{
+    background-color: #ffe58b;
+    margin: 0;
+    font-family: verdana, sans-serif;
+    font-size: 13px;
+}
+
+#fejlec{
+    width: 710px;
+    height: 112px;
+    margin: 0 auto;
+    background: url('header.jpg') no-repeat;
+}
+
+
+#menu{
+    background: url('spacer.jpg') repeat-x;
+    height: 30px;
+    padding: 7px;
+}
+
+.menu-center{
+    margin: 0 auto;
+    width: 720px;
+}
+
+#menu a,
+#menu a:link,
+#menu a:visited{
+    font-weight: bold;
+    color: white;
+    margin: 0 50px;
+    text-decoration: none;
+}
+#menu a:hover{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
+}
+
+#tartalom{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#tartalom h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+p img{
+    float: right;
+    width: 150px;
+}
+
+table{
+    border: 0;
+}
+caption{
+    padding: 5px;
+    border: 1px solid white;
+    background-color: #bb955b;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.6em;
+    font-variant: small-caps;
+}
+th, td{
+    text-align: left;
+    border: 1px dotted gray;
+}
+
+dt{
+    font-size: 1.3em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+dd{
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+
+input[type='text']{
+    width: 300px;
+}
+input[type='submit'],
+input[type='reset']{
+    width: 150px;
+}

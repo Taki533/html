@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div id="oldal">
+        <div id="bal">
+            <div id="cim">
+                <h1>Black Knight</h1>
+                <div class="cimkep"></div>
+                <h2>Sakk Klub</h2>
+            </div>
+            <div id="menu">
+                <p>menü</p>
+                <ul>
+                    <li><a href="index.html">Nyitó oldal</a></li>
+                    <li class="aktualis"><a href="kapcsolat.html">Elérhetőség</a></li>
+                    <li><a href="esemenyek.html">Események</a></li>
+                    <li><a href="csatlakozas.html">Csatlakozás</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="jobb">
+            <h1>Kapcsolat</h1>
+
+                Cím
+                    9999 Budapest, Római füdő u. 45.
+                Telefon
+                    (06-99) 123-4567
+                Email
+                    blackknight (kukac) blackknight (pont) hu
+                Nyitva
+                    H - P: 10.00-18.30
+
+        </div>
+    </div>
+</body>
+</html>

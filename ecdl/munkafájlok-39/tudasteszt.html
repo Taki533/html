@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>MAZ-ZOO Vadaspark</title>
+</head>
+<body>
+    <div id="teljesoldal">
+        <div id="zona_1">
+            <div id="logo"></div>
+        </div>
+        <div id="zona_2">
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Bemutatkozás</a></li>
+                    <li><a href="programok.html">Programok</a></li>
+                    <li class="aktiv"><a href="tudasteszt.html">Tudásteszt</a></li>
+                    <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                </ul>
+            </div>
+            <div id="fo">
+                <h1>Tudásteszt</h1>
+                <form>
+                    <fieldset>
+                        <legend>Teszteld a tudásod!</legend>
+                        <div>
+                            <p>Név</p>
+                            <div><input type="text"></div>
+                        </div>
+                        <div>
+                            <p>Email cím</p>
+                            <div><input type="text" name="email"></div>
+                        </div>
+                        <div>
+                            <p>Melyik a legnagyobb élő madár?</p>
+                            <div>
+                                <input type="radio" name="nagymadar" value="feherfeju" id="nagymadar_feherfeju"><label for="nagymadar_feherfeju"> fehérfejű réstisas</label><br>
+                                <input type="radio" name="nagymadar" value="albatrosz" id="nagymadar_albatrosz"><label for="nagymadar_albatrosz"> albatrosz</label><br>
+                                <input type="radio" name="nagymadar" value="strucc" id="nagymadar_strucc"><label for="nagymadar_strucc"> afrikai strucc</label><br>
+                                <input type="radio" name="nagymadar" value="kiralypingvin" id="nagymadar_kiralypingvin"><label for="nagymadar_kiralypingvin"> királypingvin</label><br>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Mit tesz némely giliszta, ha nem talál táplálékot?</p>
+                            <div>
+                                <select name="giliszta">
+                                    <option value=""></option>
+                                    <option value="alom">mélyebbre ássa magát és hosszú álomba merül</option>
+                                    <option value="felszin">a felszínre mászva keres táplálékot</option>
+                                    <option value="sajat">saját testüket kezdik enni</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Melyik az egyetlen lábujjhegyen járó emlősállat?</p>
+                            <div>
+                                <select name="labujjhegy" size="3">
+                                    <option value="kecske">hegyi kecske</option>
+                                    <option value="szassza">szassza</option>
+                                    <option value="antilop">jávorantilop</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Melyik a világon a legkisebb patás állat?</p>
+                            <div>
+                                <input type="radio" name="kispatas" value="szarvas" id="kispatas_szarvas"><label for="kispatas_szarvas"> törpeszarvas</label><br>
+                                <input type="radio" name="kispatas" value="vaddiszno" id="kispatas_vaddiszno"><label for="kispatas_vaddiszno"> törpe vaddisznó</label><br>
+                                <input type="radio" name="kispatas" value="vizilo" id="kispatas_vizilo"><label for="kispatas_vizilo"> törpe víziló</label><br>
+                                <input type="radio" name="kispatas" value="malac" id="kispatas_malac"><label for="kispatas_malac"> földimalac</label><br>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Melyik a kedvenc állatod és miért?</p>
+                            <div><textarea name="kedvenc" rows="6" cols="50"></textarea></div>
+                        </div>
+                        <div>
+                            <div><input type="button" name="elkuld" value="button"></div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

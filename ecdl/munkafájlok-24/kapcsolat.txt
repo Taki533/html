@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>MAZ-ZOO Vadaspark</title>
+</head>
+<body>
+    <div id="teljesoldal">
+        <div id="zona_1">
+            <div id="logo"></div>
+        </div>
+        <div id="zona_2">
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Bemutatkozás</a></li>
+                    <li><a href="programok.html">Programok</a></li>
+                    <li><a href="tudasteszt.html">Tudásteszt</a></li>
+                    <li class="aktiv"><a href="kapcsolat.html">Kapcsolat</a></li>
+                </ul>
+            </div>
+            <div id="fo">
+                <h1>Kapcsolat</h1>
+                <p>A MAZ-ZOO Vadaspark a fővárostól 2 órára található. Tömegközlekedéssel legkönnyebben a Mokka Térről induló <b>2341-es</b>, vagy <b>piros 2561-es gyorsvasúttal</b> közelíthető meg. A <b>MAZ-ZOO megállónál</b> leszállva, az utcán begyalogolva, körülbelül félóra kényelmes sétával érhető el.</p>
+                <p>Autóval szintén a MAZ-ZOO utcán kell behajtani, melynek végén balra fordulva már csupán a földúton kell végighaladni. Az út végén egy <b>parkoló</b> várja a vendégeket.</p>
+                <p>A mindenkori nyitva tartás és az aktuális jegyárak ügyében hívja a park pénztárát a 06-435/ 1245-72343-as telefonszámon!</p>
+                <p>Aktualitások, rendezvények és bővebb információk kapcsán Maz Zoltán áll rendelkezésükre a 06345 1235-0945-es mobilszámon.</p>
+            </div>
+        </div>
+    </div>
+</body>

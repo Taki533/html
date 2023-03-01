@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+    <div id="tartalom">
+        <div id="fejlec"></div>
+        <div id="kozep">
+            <div id="bal">
+                <a href="index.html" id="menu_bemutatkozas"></a>
+                <a href="kepzeseink.html" id="menu_kepzeseink"></a>
+                <a href="kapcsolat.html" id="menu_kapcsolat"></a>
+                <a href="vendegkonyv.html" id="menu_vendegkonyv"></a>
+            </div>
+            <div id="jobb">
+                <h1>Kapcsolat</h1>
+                <p class="kep_jobbra"></p>
+
+                Székhely:
+                    9999 Budapest, Kodály Zoltán u. 76.
+                Levelezési cím:
+                    9999 Budapest, Pf. 9999.
+                Telefon / fax:
+                    1-234-5678, Mobil: 06/99-9999-999
+                Igazgató:
+                    Nagy Dénes
+                Igazgató-helyettes:
+                    Takács János 
+                E-mail:
+                    titkarsag@ukuleleiskola.hu
+                    info@ukuleleiskola.hu
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Expresso internet-kávézó</title>
+</head>
+<body>
+    <div id="page">
+        <div id="head">
+            <h1>E<span>x</span>presso<br>internet kávézó</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html"><span>R</span>ólunk</a></li>
+                <li><a href="szolg.html"><span>S</span>zolgáltatásaink</a></li>
+                <li class="current"><a href="kapcs.html"><span>K</span>apcsolat</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h1>Kapcsolat</h1>
+            <form>
+                <fieldset>
+                    <p class="kep"><img src="expresso_2.jpg"></p>
+                    <legend>Ha kérdése van, írjon nekünk!</legend>
+                    <div>
+                        <p>Neve:</p>
+                        <div><input type="text" name="nev" value=""></div>
+                    </div>
+                    <div>
+                        <p>Email címe:</p>
+                        <div><input type="text" value=""></div>
+                    </div>
+                    <div>
+                        <p>Kérdése:</p>
+                        <div><textarea name="kerdes"></textarea></div>
+                    </div>
+                    <div>
+                        <p>Szeretne feliratkozni a hírlevelünkre?</p>
+                        <div>
+                            <input type="radio" name="hirlevel" value="1" id="hirlevel_igen" selected><label for="hirlevel_igen"> igen</label><br>
+                            <input type="radio" name="hirlevel" value="0" id="hirlevel_nem"><label for="hirlevel_nem"> nem</label>
+                        </div>
+                    </div>
+                    <div>
+                        <p>&nbsp;</p>
+                        <div><input type="button" name="mehet" value="Gomb"></div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

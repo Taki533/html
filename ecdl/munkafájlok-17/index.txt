@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta charset="utf-8">
+<title>Pacman Pizza</title>
+<body>
+    <div id="page">
+        <div id="head">
+            <div>
+                <p><b>Postacím:</b> 2660 Balassagyarmat, Térd u. 14.</p>
+                <p><b>Telefon:</b> (06-999) 555-9876, (06-999) 555-9875</p>
+                <p><b>Fax:</b> (06-999) 555-9874</p>
+                <p><b>E.mail:</b> pacman@pacmanpizzzza.hu</p>
+            </div>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html" class="aktiv">Céginfó</a></li>
+                <li><a href="tortenet.html">A pizza története</a></li>
+                <li><a href="pizzak.html">Pizzák</a></li>
+                <li><a href="megrendeles.html">Megrendelés</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <p>Üdvözöljük a Pacman Pizza oldalán!</p>
+            <p>A Pacman Pizza 10 éve alapította meg első pizzériáját, azóta már 7 pizzériánk is várja az éhes vendégseregletet.</p>
+            <p>Célunk a hagyományos és modern gasztronómiai jellegzetességek ötvözése. Saját készítésű pizzáink mellett ugyanúgy megtalálhatóak a hagyományos olasz pizzafélék is. Mindezt a lehető legjobb minőségben és a leggyorsabb futárokkal kínáljuk vásárlóinknak.</p>
+            <p>Állásajánlat</p>
+            <p>Ha szeretnél csapatunk tevékeny tagja lenni és rendelkezel is munkatapasztalattal, akkor ne habozz és küldj önéletrajzot.</p>
+            <p>Jelenleg teljes munkaidőbe keresünk:</p>
+            <ul>
+                <li>2 fő szakácsot</li>
+                <li>1 fő motoros futárt</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

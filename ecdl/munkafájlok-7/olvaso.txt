@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="fejlec">
+        <div id="logo"></div>
+        <div id="cim">
+            <h1>Iskolai Könyvtár</h1>
+            <h2>alapítva: 1814-ben</h2>
+        </div>
+    </div>
+    <div id="kozep">
+        <div id="menu">
+            <h1>Menü:</h1>
+            <ul>
+                <li><a href="index.html">Kezdőoldal</a></li>
+                <li><a href="olvaso.html" class="aktiv">Olvasóterem</a></li>
+                <li><a href="katalogus.html">Katalógus</a></li>
+                <li><a href="hosszabbitas.html">Hosszabbítás</a></li>
+                <li><a href="elojegyzes.html">Előjegyzés</a></li>
+            </ul>
+        </div>
+        <div id="tartalom">
+            <h1>Olvasóterem</h1>
+            <p>Hamarosan...</p>
+            <p>Nyitvatartási idő megtalálható itt.</p>
+            <p>Katalógusunkat innen érheti el.</p>
+        </div>
+    </div>
+</body>
+</html>

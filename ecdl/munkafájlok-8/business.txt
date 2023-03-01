@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Palmerius étterem</title>
+    <div id="fejlec">
+        <div>
+            <h1>Palmerius étterem</h1>
+            <p>Budapest, XXIV. ker. Fő u. 302. Telefon: +36 (1) 3210-9876. E-mail: info [kukac] palmeriusetterem [pont] hu.</p>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="foglalas.html">Asztalfoglalás</a></li>
+                <li><a href="spec.html">Specialitások</a></li>
+                <li><a href="business.html"><span>Business Lunch Menu</span></a></li>
+                <li><a href="galeria.html">Galéria</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="tartalom">
+        <div>
+            <h1>Business Lunch Menu</h1>
+            <p>Igénybe vehető hétköznap 12:00 és 14:00 között. Ára: 7500 Ft</p>
+            <p>A menü tartalma:</p>
+            <pre>
+                - Hideg és meleg előételek, saláták
+                - A nap levese
+                - Szárnyas vagy hal tetszőleges körettel
+                - Fagylalt vagy sütemény
+                - Korlátlan ásványvíz fogyasztás
+            </pre>
+        </div>
+    </div>
+</html>

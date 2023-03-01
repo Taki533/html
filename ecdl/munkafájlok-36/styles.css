@@ -1,0 +1,58 @@
+body{
+    background: url('leaves.jpg');
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+#oldal{
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#cim{
+    background: url('cim.gif') no-repeat center center;
+}
+#menu{
+    width: 200px;
+    float: left;
+}
+#menu li{
+    list-style-image:url('bullet.gif');
+    margin: 10px 0;
+}
+#menu a,
+#menu a:link,
+#menu a:visited{
+    text-decoration: none;
+    color: #606;
+}
+#menu a:hover{
+    color: #c6c;
+}
+#tartalom{
+    width: 750px;
+    float: left;
+}
+.kep{
+    float: right;
+}
+.kep img{
+    width: 300px;
+    margin: 10px;
+}
+
+table{
+    background-color: #cfc;
+    border-collapse: collapse;
+    
+}
+thead th{
+    padding: 10px;
+}
+td{
+    padding: 10px 5px;
+    border-bottom: 3px dotted #060;
+}
+fieldset p{
+    font-weight: bold;
+}

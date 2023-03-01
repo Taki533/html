@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script|Nosifer|Flavors&subset=latin,latin-ext);
+
+/* menü stíluselemek */
+
+#menu{
+    font-family: 'Flavors', cursive;
+    float: left;
+    width: 160px;
+    margin-top: 20px;
+}
+#menu h3{
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#menu ul{
+    list-style-type: none;
+}
+#menu ul li{
+    font-size: 21px;
+}
+#menu a, #menu a:link, #menu a:visited{
+    color: #900;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: #f33;
+}
+#menu ul li#aktiv a{
+    color: #000;
+}
+
+/* tartalom stíluselemek */
+
+#tartalom{
+    width: 780px;
+    float: left;
+    margin-left: 20px;
+}
+#tartalom h3{
+    text-align: center;
+    font-size: 24px;
+}
+#tartalom h4{
+    font-size: 18px;
+}
+#tartalom .figure{
+    float: left;
+    margin: 20px;
+}
+#tartalom table{
+    border: 0;
+}
+#tartalom table caption{
+    font-size: 1.1em;
+}
+#tartalom table th{
+    background-color: #eee;
+    padding: 5px 10px;
+}
+#tartalom table td{
+    text-align: right;
+}
+#tartalom .foglalas_urlap{
+    width: 600px;
+    padding: 5px;
+    margin: 0;
+}
+
+
+/* fejléc stíluselemek */
+
+#fejlec{
+    font-family: 'Flavors', cursive;
+    height: 50px;
+    background-color: #eee;
+}
+#fejlec h1{
+    font-size: 36px;
+    float: left;
+    padding: 0 10px;
+    margin: 0 40px 0 0;
+}
+#fejlec h2{
+    font-size: 18px;
+    clear: right;
+    margin: 0;
+    padding-top: 20px;
+}
+
+/* lábléc stíluselemek */
+
+#lablec{
+    height: 50px;
+    background-color: #eee;
+    color: #999;
+}
+#lablec p{
+    padding: 10px;
+    text-align: center;
+}
+
+/* egyéb stíluselemek */
+
+body{
+    font-family: Arial, sans-serif;
+    width: 960px;
+    margin: 0 auto;
+}
+a, a:link, a:visited{
+    color: blue;
+}
+.clear{
+    clear: both;
+}

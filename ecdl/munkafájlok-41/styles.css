@@ -1,0 +1,87 @@
+body{
+    background-color: #282a45;
+    margin: 0;
+}
+#page{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+#head{
+    padding: 10px;
+    background: url('expresso_head.jpg') no-repeat top left;
+}
+#head h1{
+    font-family: fantasy;
+    font-size: 1.8em;
+    text-align: center;
+}
+#head h1 span{
+    color: red;
+}
+#nav{
+    background-color: #282a45;
+    border-top: 3px dotted #fff;
+    border-bottom: 3px dotted #fff;
+}
+#nav ul{
+    margin: 3px 5px;
+    text-align: right;
+}
+#nav li{
+    display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+}
+#nav a,
+#nav a:link,
+#nav a:visited{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+}
+#nav a:hover{
+    color: red;
+}
+.current a span{
+    color: red;
+}
+#content{
+    padding: 10px;
+}
+#content h1{
+    font-size: 1.8em;
+}
+#content .kep{
+    float: right;
+}
+
+dt{
+    margin: 8px;
+}
+
+table{
+    border-collapse: collapse;
+}
+thead th{
+    font-size: 1.3em;
+    font-variant: small-caps;
+    background-color: #ccc;
+}
+th, td{
+    padding: 8px 20px;
+}
+tbody th{
+    letter-spacing: 0.3em;
+}
+fieldset{
+    width: 850px;
+    margin: 0 auto;
+}
+legend{
+    font-weight: bold;
+}
+fieldset div div{
+    margin-left: 80px;
+}

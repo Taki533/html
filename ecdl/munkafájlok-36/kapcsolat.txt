@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Falu vége turisztikai Kft.</title>
+
+    <div id="oldal">
+        <div id="cim"><img src="logo.gif"></div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Rólunk</a></li>
+                <li><a href="programok.html">Programok</a></li>
+                <li><a href="ajanlo.html">Ajánló</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </div>
+        <div id="tartalom">
+            <h1>Kapcsolat</h1>
+            <p><b>FALU-VÉGE Utazási Iroda és Turisztikai Szolgáltató Kft.</b><br>
+            <b>Székhely:</b> 9999 Piripócs, Faluvége u. 4568.<br>
+            <b>Telefon:</b> +36 999 345 6789<br>
+            <b>Fax:</b> +36 999 345 6789<br>
+            <b>Levelezési cím:</b> 9999 Faluvége, Pf: 98654.</p>
+        </div>
+    </div>
+</html>

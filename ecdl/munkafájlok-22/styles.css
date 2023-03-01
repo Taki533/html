@@ -1,0 +1,95 @@
+body{
+    background-color: #dabfa2;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+#lap{
+    width: 748px;
+    margin: 0 auto;
+}
+#cim{
+    height: 66px;
+    background: url('cim_hatter.jpg') no-repeat;
+}
+#menu{
+    height: 20px;
+    background: url('menu_hatter.jpg') no-repeat;
+}
+#menu ul{
+    margin: 0;
+    padding-top: 2px;
+}
+#menu li{
+    display: inline;
+    list-style-type: none;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    border-right: 1px solid black;
+}
+#menu li:last-child{
+    border-right: 0;
+}
+
+#menu a,
+#menu a:link,
+#menu a:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+#szoveg{
+    height: 473px;
+    background: url('szoveg_hatter.jpg') no-repeat;
+    padding: 20px;
+    color: #eee;
+}
+#szoveg h1{
+    text-align: center;
+    font-size: 1.6em;
+}
+table{
+    width: 100%;
+    border-top: 2px dashed #fff;
+}
+th{
+    font-size: 1.2em;
+}
+th,td{
+    padding: 10px;
+}
+th:first-child,
+td:first-child{
+    border-right: 2px dashed #fff;
+}
+
+dt{
+    margin: 15px;
+}
+
+fieldset{
+    margin: 0 auto;
+}
+.mezo-sor{
+    margin: 5px 0;
+    float: left;
+}
+.mezo-cimke{
+    width: 180px;
+    float: left;
+}
+.mezo-elem{
+    width: 480px;
+    float: right;
+}
+.mezo-gomb{
+    width: 100%;
+    text-align: center;
+}
+input[type='text']{
+    width: 300px;
+}
+input[type='submit']{
+    font-weight: bold;
+}

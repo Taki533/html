@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Fodor & Bodor fodrászat</title>
+</head>
+<body>
+    <div id="fejlec"></div>
+    <div id="menu">
+        <a href="index.html">Bemutatkozás</a>
+        <a href="arlista.html">Árlista</a>
+        <a href="bejelentkezes.html">Bejelntkezés</a>
+        <a href="kapcsolat.html">Kapcsolat</a>
+    </div>
+    <div id="tartalom">
+        <h1>Bejelentkezés</h1>
+        <p class="kep"><img src="fiji.jpg"></p>
+    <form method="post">
+    <fieldset>
+        <div class="mezosor">
+            <div class="cimke">Név:</div>
+            <div class="mezo"><input type="text" name="nev" value=""></div>
+        </div>
+        <div class="mezosor">
+            <div class="cimke">Telefon</div>
+            <div class="mezo"><input type="text" name="tel" value=""></div>
+        </div>
+        <div class="mezosor">
+            <div class="cimke">A hét mely napjára?:</div>
+            <div class="mezo"> 
+                <select name="het_nap">
+                    <option value="H">hétfő</option>
+                    <option value="K">kedd</option>
+                    <option value="Sz">szerda</option>
+                    <option value="Cs">csütörtök</option>
+                    <option value="P">péntek</option>
+                </select>
+            </div>
+        </div>
+        <div class="mezosor">
+            <div class="cimke">Időpont (óra:perc)</div>
+            <div class="mezo"><input type="text" name="ip" value=""></div>
+        </div>
+        <div class="mezosor">
+            <div class="cimke">&nbsp;</div>
+            <div class="mezo"><input type="submit" name="ok" value="küldés"></div>
+        </div>
+    </fieldset>
+    </form>
+    </div>
+</body>
+</html>

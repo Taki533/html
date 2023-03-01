@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta charset="utf-8">
+<title>Drive-This autókölcsönző</title>
+</head>
+<body>
+    <div id="felso">
+        <div id="logo"><a href="index.html"><img src="dtlogo.jpg" title="vissza a főoldalra"></a></div>
+        <div id="menu">
+            <p><a href="index.html">Nyitólap</a></p>
+            <p><a href="autok.html">Autók</a></p>
+            <p><a href="kolcsonzes.html">Kölcsönzés</a></p>
+            <p><a href="partnerek.html" class="aktiv">Partnereink</a></p>
+        </div>
+    </div>
+    <div id="foresz">
+        <p class="partner_kep"><img src="partner_1.jpg"></p>
+        <p class="partner_kep"><img src="partner_2.jpg"></p>
+    </div>
+</body>

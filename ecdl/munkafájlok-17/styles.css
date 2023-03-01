@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    background-color: #ccc;
+    margin: 0;
+}
+#page{
+    width: 780px;
+    min-height: 500px;
+    background-color: white;
+    margin: 0 auto;
+}
+#head{
+    width: 100%;
+    height: 96px;
+    background: url('pizza_01.jpg') no-repeat #c00000;
+}
+#head div{
+    width: 250px;
+    margin-left: 530px;
+    padding-top: 8px;
+}
+#head div p{
+    margin: 0;
+    padding: 3px 0;
+    color: white;
+    font-size: 0.85em;
+}
+#nav{
+    width: 100%;
+    height: 26px;
+    background-color: black;
+}
+#nav ul{
+    padding-left: 70px;
+    padding-top: 3px;
+    margin: 0;
+}
+#nav li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 85px;
+}
+#nav a,
+#nav a:link,
+#nav a:visited{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+#nav a:hover,
+#nav a.aktiv{
+    text-decoration: underline;
+}
+#content{
+    padding: 10px;
+}
+#content h1{
+    text-align: left;
+}
+
+#content h2{
+    font-size: 1.3em;
+}
+.kep_jobb{
+    float: right;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #c00000;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+}
+td{
+    padding: 5px 10px;
+}
+
+fieldset{
+    margin: 0 auto;
+}
+legend{
+    font-weight: bold;
+}
+.field_row{
+    padding: 10px 0;
+}
+.field_label{
+    float: left;
+    width: 100px;
+}
+.field_item{
+    clear: right;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="lap">
+        <div id="cim">
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Rólunk</a></li>
+                <li><a href="oktatok.html">Oktatók</a></li>
+                <li><a href="tanfolyamok.html">Tanfolyamok</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </div>
+        <div id="szoveg">
+            <h1>Tanfolyamok</h1>
+            <p>
+                Kezdő
+                    heti 2 óra. 20 alkalom. Ismerekedés a lemezjátszóval, keverővel, a különböző technikákkal.<br>
+                    5000 Ft / óra.
+                Haladó
+                    heti 6 óra. 30 alkalom.<br>
+                    8000 Ft / óra.
+                Profi
+                    heti 8 óra. 40 alkalom.<br>
+                    10000 Ft / óra.
+            </p>
+        </div>
+    </div>
+</body>

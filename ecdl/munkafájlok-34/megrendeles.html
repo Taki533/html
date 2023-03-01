@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Pacman Pizza</title>
+</head>
+<body>
+    <div id="page">
+        <div id="head">
+            <div>
+                <p><b>Postacím:</b> 2660 Balassagyarmat, Térd u. 14.</p>
+                <p><b>Telefon:</b> (06-999) 555-9876, (06-999) 555-9875</p>
+                <p><b>Fax:</b> (06-999) 555-9874</p>
+                <p><b>E.mail:</b> pacman@pacmanpizzzza.hu</p>
+            </div>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Céginfó</a></li>
+                <li><a href="tortenet.html">A pizza története</a></li>
+                <li><a href="pizzak.html">Pizzák</a></li>
+                <li><a href="megrendeles.html" class="aktiv">Megrendelés</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h1>Megrendelés</h1>
+            <form>
+                    <div class="field_row">
+                        <div class="field_label">Pizza</div>
+                        <div class="field_item">
+                            <select name="pizza">
+                                <option value="">- válasszon -</option>
+                                <option value="4evszak">4 évszak</option>
+                                <option value="alexandra">Alexandra</option>
+                                <option value="erospista">Erős Pista</option>
+                                <option value="extra">Extra</option>
+                                <option value="gombas">Gombás</option>
+                                <option value="gyumolcsos">Gyümölcsös</option>
+                                <option value="hawaii">Hawaii</option>
+                                <option value="kolbaszos">Kolbászos</option>
+                                <option value="magyaros">Magyaros</option>
+                                <option value="sonkas">Sonkás</option>
+                                <option value="szalamis">Szalámis</option>
+                                <option value="tengergyumolcsei">Tenger gyümölcsei</option>
+                                <option value="tonhalas">Tonhalas</option>
+                                <option value="vegetarianus">Vegetáriánus</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Méret</div>
+                        <div class="field_item">
+                            <input type="radio" name="meret" value="32" id="meret_32"> <label for="meret_32">32 cm</label>
+                            <input type="radio" name="meret" value="45" id="meret_45"> <label for="meret_45">45 cm</label>
+                        </div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Név</div>
+                        <div class="field_item"><input type="text" name="nev"></div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Város</div>
+                        <div class="field_item">
+                            <select name="varos">
+                                <option value="">- válasszon -</option>
+                                <option value="bgy">Balassagyarmat</option>
+                                <option value="evk">Érsekvadkert</option>
+                                <option value="rsg">Rétság</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Cím</div>
+                        <div class="field_item"><input type="text" name="cim"></div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Telefonszám</div>
+                        <div class="field_item"><input type="text" name="tel"></div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Email cím</div>
+                        <div class="field_item"><input type="text" name="email"></div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">&nbsp;</div>
+                        <div class="field_item"><input type="button" name="megrendeles" value="button"></div>
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

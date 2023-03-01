@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>TIP-TOP Szőnyegház</title>
+</head>
+<body>
+    <div id="oldal">
+        <div id="teteje"><img src="header.jpg"></div>
+        <div id="kozepe">
+            <ul>
+                <li><a href="index.html">A Tip-Top</a></li>
+                <li><a href="szonyegek.html">Szőnyegek</a></li>
+                <li class="aktiv"><a href="megrendeles.html">Megrendelés</a></li>
+                <li><a href="allas.html">Állásajánlatok</a></li>
+            </ul>
+        </div>
+        <div id="alja">
+            <h1>Megrendelés</h1>
+            <form>
+                <fieldset>
+                    <legend>Válassza ki a megrendelni kívánt szőnyeget és adja meg adatait!</legend>
+                    <div class="field_row">
+                        <div class="field_label">Szőnyeg</div>
+                        <div class="field_item">
+                            <select name="szonyeg">
+                                <option value="flowerg">Flower green</option>
+                                <option value="autumn">Autumn</option>
+                                <option value="flowero">Flower orange</option>
+                                <option value="spring">Spring</option>
+                                <option value="braunw">Brown wave</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Név</div>
+                        <div class="field_item"><input type="text" name="nev"></div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Város</div>
+                        <div class="field_item">
+                            <select name="varos">
+                                <option value="">- válasszon -</option>
+                                <option value="bgy">Balassagyarmat</option>
+                                <option value="evk">Érsekvadkert</option>
+                                <option value="rsg">Rétság</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Cím</div>
+                        <div class="field_item"><input type="text" name="cim"></div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Telefonszám</div>
+                        <div class="field_item"><input type="text" name="tel"></div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Email cím</div>
+                        <div class="field_item"><input type="text" name="email"></div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">Elektronikus számlát küldjünk?</div>
+                        <div class="field_item">
+                            <input type="radio" name="eszamla" value="1" id="eszamla_igen"> <label for="eszamla_igen">Igen</label>
+                            <input type="radio" name="eszamla" value="0" id="eszamla_nem"> <label for="eszamla_nem">Nem</label>
+                        </div>
+                    </div>
+                    <div class="field_row">
+                        <div class="field_label">&nbsp;</div>
+                        <div class="field_item"><input type="button" value="button"></div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

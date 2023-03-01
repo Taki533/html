@@ -1,0 +1,92 @@
+body{
+    background: url('pcb.jpg');
+    margin: 0;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+}
+#fejlec, 
+#menu, 
+#tartalom{
+    width: 900px;
+    margin: 10px auto;
+}
+
+#fejlec{
+    background: url('fodorbodor_cim.gif') no-repeat;
+    height: 100px;
+    width: 400px;
+}
+#menu{
+    width: 650px;
+}
+#menu a, 
+#menu a:link,
+#menu a:visited{
+    float: left;
+    padding: 10px 40px;
+    background: url('menudisz.gif') no-repeat scroll 7px 11px transparent;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+#menu a:hover{
+    text-decoration: underline;
+    color: red;
+}
+#tartalom{
+    clear: both;
+}
+h1{
+    font-size: 1.4em;
+}
+.kep img{
+    float: left;
+    width: 120px;
+    margin: 5px 20px 20px 0;
+}
+.kep_jobbra img{
+    float: right;
+    margin: 5px 20px 20px 0;
+    width: 110px;
+    border: 5px solid black;
+}
+
+.cimke{
+    font-weight: bold;
+}
+.mezo{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+dt{
+    font-weight: bold;
+}
+dd{
+    font-size: 0.9em;
+    padding-left: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #eee;
+}
+caption{
+    margin: 0;
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #a00;
+    background-color: #ccc;
+}
+thead th{
+    text-align: center;
+}
+
+th, td{
+    padding: 5px;
+    border: 1px dotted #ccc;
+    text-align: left;
+}

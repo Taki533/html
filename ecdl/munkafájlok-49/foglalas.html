@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Flavors" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+<title>Cape Hotel</title>
+</head>
+<body>
+
+    <div id="fejlec">
+        <h1>Cape Hotel</h1>
+        <h2>Marina de la Algarve</h2>
+    </div>
+    <div id="menu">
+        <h3>Menü</h3>
+        <ul>
+            <li><a href="index.html">Rólunk</a></li>
+            <li><a href="szobak.html">Szobák</a></li>
+            <li><a href="szolg.html">Szolgáltatások</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            <li id="aktiv"><a href="foglalas.html">Foglalás</a></li>
+        </ul>
+    </div>
+    <div id="tartalom">
+        <div class="figure"><img src="architecture.jpg" width="189" height="285" alt="Hotel"></div>
+        <h3>Foglalás</h3>
+        <p>A <i>Cape Hotel</i>-be történő foglaláshoz kérjük töltse ki az alábbi űrlapot. Legkésőbb 3 munkanapon belül válaszolunk Önnek.</p>
+        <p>Ha inkább egyik testvér szállodánkról szeretne információhoz jutni (<i>LA Palace, Manchester Marlet</i>), kérjük, <b>jelölje ki a listából</b> és tájékoztató anyagot küldünk Önnek.</p>
+        <div class="clear"></div>
+        <div class="foglalas_urlap">
+            <a id="urlap"></a><form>
+                <fieldset>
+                    <legend>Foglalás űrlap</legend>
+                    <p>Név:<br>
+                        <input type="text" name="nev" value=""></p>
+                    <p>Email cím:<br>
+                        <input type="text" name="email" value=""></p>
+                    <p>Hotel:<br>
+                        <select name="hotel">
+                            <option value="0">Válasszon hotelt!</option>
+                            <option value="ch">Cape Hotel</option>
+                            <option value="lp">La Palace</option>
+                            <option value="mm">Manchaster Marlet</option>
+                        </select>
+                    <p>Szoba típusa:<br>
+                        <select name="szoba">
+                            <option value="0" selected>Válasszon szobatípust!</option>
+                            <option value="1">Egyágyas</option>
+                            <option value="2">Kétágyas</option>
+                        </select>
+                    <p>Érkezés, távozás:<br>
+                        <input type="text" name="erkezes" value="éééé-hh-nn"> - <input type="text" name="tavozas" value="éééé-hh-nn"></p>
+                    <p>Különleges kérések:<br>
+                        <input type="text" name="keres"></p>
+                    <p><input type="submit" name="ok" value="küldés"></p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="lablec">
+        <p>Minden jog fenntartva.</p>
+    </div>
+</body>
+</html>

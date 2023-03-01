@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Csendes Víz horgásztó</title>
+</head>
+<body>
+    <div id="oldal">
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Kezdőlap</a></li>
+                <li><a href="idojaras.html">Időjárás</a></li>
+                <li class="aktiv"><a href="informacio.html">Információ</a></li>
+                <li><a href="eszkozok.html">Eszközök</a></li>
+            </ul>
+        </div>
+        <div id="folap">
+            <div id="fejlec">
+                <div id="logo"></div>
+                <div id="focim"><h1>Csendes Víz</h1><h2>horgásztó</h2></div>
+            </div>
+            <div id="tartalom">
+                <h1>Információ</h1>
+
+                <p>Szabályok</p>
+                    <p>OHR, pergetés tilos.<br>
+                    Védett faj: compó.</p>
+                <p>Horgászidőszak</p>
+                    <p>jégvesztétől; nk-nny; májustól hétvégén, valamint ünnepnapok előtt éjszaka is
+                <p>Fogható mennyiség</p>
+                    <p>4 ponty + 2 amur + 2 ragadozó + 15 kg egyéb</p>
+                <p>Csónakhasználat</p>
+                    <p>4 000 Ft / nap / 2 fő</p>
+                <p>Jegyárak</p>
+                    <p>5 000 Ft (hétvégi, ünnepi, éjszakai 8 000 Ft</p>
+
+                <form>
+                    <fieldset>
+                        <legend>Ha további információra kíváncsi, írjon nekünk!</legend>
+                        <div class="urlapsor">
+                            <div class="cimke">Név</div>
+                            <div class="urlapelem"><input type="text" name="nev"></div>
+                        </div>
+                        <div class="urlapsor">
+                            <div class="cimke">Email cím</div>
+                            <div class="urlapelem"><input type="text" name="email"></div>
+                        </div>
+                        <div class="urlapsor">
+                            <div class="cimke">Kategória</div>
+                            <div class="urlapelem">
+                                <select name="kategoria" size="3">
+                                    <option value="">- válasszon -</option>
+                                    <option value="engedely">horgászengedély kiváltásával/meghosszabbításával kapcsolatos kérdés</option>
+                                    <option value="panasz">panasz bejelentése</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="urlapsor">
+                            <div class="cimke">Üzenet</div>
+                            <div class="urlapelem"><textarea name="uzenet"></textarea></div>
+                        </div>
+                        <div class="urlapsor">
+                            <div class="cimke">&nbsp;</div>
+                            <div class="urlapelem"><input type="submit" name="kuldes" value="küldés"></div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

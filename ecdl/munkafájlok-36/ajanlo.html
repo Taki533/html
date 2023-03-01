@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Falu vége turisztikai Kft.</title>
+</head>
+<body>
+    <div id="oldal">
+        <div id="cim"><img src="logo.gif"></div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Rólunk</a></li>
+                <li><a href="programok.html">Programok</a></li>
+                <li><a href="ajanlo.html">Ajánló</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </div>
+        <div id="tartalom">
+            <h1>Ajánló</h1>
+            <form>
+                <fieldset>
+                    <legend>Töltse ki az alábbi űrlapot, hogy az elképzeléseinek megfelelő ajánlatot tudjunk küldeni Önnek!</legend>
+                    <p>
+                        Név:<br>
+                        <input type="text" name="text">
+                    </p>
+                    <p>
+                        Email cím:<br>
+                        <input type="text" name="email">
+                    </p>
+                    <p>
+                        Kategóriák, amelyekre kíváncsi:<br>
+                        <input type="checkbox" name="zene" value="1" id="zene"><label for="zene"> Zenei program</label><br>
+                        <input type="checkbox" name="muveszet" value="1" id="muveszet"><label for="muveszet"> Művészet</label><br>
+                        <input type="checkbox" name="kultura" value="1" id="kultura"><label for="kultura"> Kultúra</label><br>
+                        <input type="checkbox" name="sport" value="1" id="sport"><label for="sport"> Sport</label><br>
+                        <input type="checkbox" name="kiallitas" value="1" id="kiallitas"><label for="kiallitas"> Kiállítás</label>
+                    </p>
+                    <p>
+                        Régió<br>
+                        <select name="regio">
+                            <option value="bal">Balaton</option>
+                            <option value="bud">Budapest és Pest megye</option>
+                            <option value="dal">Dél-Alföld</option>
+                            <option value="ddu">Dél-Dunántúl</option>
+                            <option value="eal">Észak-Alföld</option>
+                            <option value="ema">Észak-Magyarország</option>
+                            <option value="kdu">Közép-Dunántúl</option>
+                            <option value="nyd">Nyugat-Dunántúl</option>
+                        </select>
+                    </p>
+                    <p><input type="submit" name="kuldes" value="Küldés"></p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

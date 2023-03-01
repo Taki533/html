@@ -1,0 +1,93 @@
+body{
+    background: url('leaves.jpg');
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+#teljesoldal{
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#zona_1{
+    width: 880px;
+    height: 100px;
+    background: url('cim.gif') no-repeat center center;
+}
+#logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url('logo.gif') no-repeat;
+}
+#zona_2{
+    width: 880px;
+    min-height: 300px;
+}
+#menu{
+    float: left;
+    width: 180px;
+}
+#menu ul{
+    margin: 40px 0;
+    padding: 0;
+}
+#menu li{
+    list-style-type: none;
+    background-color: #346c0e;
+    border: 2px solid #6da844;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 15px 15px 15px 0;
+    text-align: center;
+}
+#menu a,
+#menu a:link,
+#menu a:visited{
+    color: #999;
+    text-decoration: none;
+}
+#menu a:hover{
+    text-decoration: none;
+}
+#menu .aktiv{
+    background-color: #6da844;
+}
+#menu .aktiv a{
+    color: #fff;
+}
+#fo h1{
+    font-size: 1.8em;
+}
+#fo h2{
+    font-size: 1.3em;
+}
+.kep{
+    float: right;
+}
+.kep img{
+    margin: 10px;
+    border: 2px solid yellow;
+}
+table{
+    background-color: #fff;
+}
+th{
+    color: #fff;
+}
+td{
+    border: 1px dotted #060;
+    padding: 5px;
+    vertical-align: top;
+    min-width: 100px;
+}
+
+legend{
+    font-weight: bold;
+}
+fieldset p{
+    font-weight: bold;
+}
+fieldset div div{
+    margin: 0 0 20px 30px;
+}

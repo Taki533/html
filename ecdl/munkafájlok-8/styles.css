@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Sarina);
+
+body{
+    background-color: #cfeefe;
+    margin: 20px 0;
+    font-family: Tahoma, sans-serif;
+}
+#fejlec{
+    width: 100%;
+    height: 140px;
+    background: #cfeefe url('fejlec.jpg') repeat-x left top;
+    border-top: 2px solid #a9d2e7;
+    border-bottom: 2px solid #a9d2e7;
+}
+#fejlec h1{
+    font-family: 'Sarina', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #800;
+    margin: 20px;
+    padding: 0;
+}
+#fejlec p{
+    font-size: 12px;
+    margin: 8px;
+    padding: 0;
+    text-align: center;
+}
+#menu{
+    background-color: #47a65b;
+    height: 30px;
+}
+#menu ul{
+    padding: 0;
+    list-style-type: none;
+    margin: 0 ;
+}
+#menu ul li{
+    display: inline;
+    padding: 0 30px;
+    margin: 0;
+    line-height: 30px;
+}
+#menu ul li a,
+#menu ul li a:link,
+#menu ul li a:visited{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    color: red;
+}
+#menu ul li a span{
+    background-color: white;
+    color: black;
+}
+#fejlec>div{
+    width: 960px;
+    margin: 0 auto;
+}
+#tartalom>div{
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    min-height: 500px;
+}
+#tartalom h1{
+    font-size: 1.4em;
+}
+#tartalom .kozep{
+    text-align: center;
+}
+
+
+
+form{
+    background-color: #eee;
+}
+form h1{
+    background-color: #ddf;
+    text-align: center;
+}
+fieldset .mezosor{
+    margin: 8px;
+    float: left;
+}
+fieldset .mezosor .cimke{
+    width: 200px;
+    float: left;
+}
+fieldset .mezosor .mezo{
+    width: 650px;
+    float: left;
+}
+
+fieldset .mezosor .mezo input{
+    width: 250px;
+}
+fieldset .mezosor .mezo input[type='checkbox'],
+fieldset .mezosor .mezo input[type='radio']{
+    width: 30px;
+}
+fieldset .mezosor .mezo input[type='submit'],
+fieldset .mezosor .mezo input[type='reset']{
+    width: 120px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+table{
+    margin: 20px auto;
+    border-collapse: collapse; 
+    border: 1px solid #030;
+    width: 50%;
+}
+th{
+    padding: 5px;
+}
+td{
+    padding: 5px;
+    vertical-align: bottom;
+}

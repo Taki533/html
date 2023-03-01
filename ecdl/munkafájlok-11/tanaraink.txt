@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Hot Salsa Tánciskola</title>
+<body>
+    <div id="fejlec"></div>
+    <div id="menu">
+        <div class="menu-center">
+            <a href="index.html">A tánciskola</a>
+            <a href="tancorak.html">Táncórák</a>
+            <a href="tanaraink.html">Tanáraink</a>
+            <a href="kapcsolat.html">Kapcsolat</a>
+        </div>
+    </div>
+    <div id="tartalom">
+        <h1>Tanáraink</h1>
+        <p>
+            Latin táncok
+                Szabó Stefánia
+                
+            Társastánc
+                Józsefé Nagy Dóra
+                
+            Modern tánc
+                John Smith
+                
+            Rock &amp; Roll, Jazz
+                Kis Tamara
+        </p>
+    </div>
+</body>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta charset="utf-8">
+<title>TIP-TOP Szőnyegház</title>
+<body>
+    <div id="oldal">
+        <div id="teteje"><img src="header.jpg"></div>
+        <div id="kozepe">
+            <ul>
+                <li><a href="index.html">A Tip-Top</a></li>
+                <li><a href="szonyegek.html">Szőnyegek</a></li>
+                <li><a href="megrendeles.html">Megrendelés</a></li>
+                <li class="aktiv"><a href="allas.html">Állásajánlatok</a></li>
+            </ul>
+        </div>
+        <div id="alja">
+            <h1>Állásajánlatok</h1>
+            <p>Ezen az oldalon az aktuális állásajánlatainkat találhatja.</p>
+            <p>Ha szeretne csapatunk tevékeny tagja lenni és rendelkezik munkatapasztalattal is, akkor ne tétovázzon és küldje el önéletrajzát a 9999 Rókapuszta, Nyúl. u. 99. címre, vagy interneten az allas@ttszgh.hu email címre.</p>
+            <p><b>Jelenleg teljes munkaidőbe keresünk:</b></p>
+            
+                1 fő pénztárost
+                1 fő szállítmányozót
+                2 fő eladót
+            
+        </div>
+    </div>
+</body>
+</html>

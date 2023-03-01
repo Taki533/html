@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+    <div id="oldal">
+        <div id="fejlec">
+            <h1>Izzó Fitnesz Klub</h1>
+            <h2>Mottó: Gyere Gyakran Gyúrni ;-)</h2>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="szolg.html" class="kivalasztott">Szolgáltatások</a></li>
+                <li><a href="kapcs.html">Kapcsolat</a></li>
+            </ul>
+        </div>
+        <div id="tartalom">
+            <h1>Szolgáltatások</h1>
+            <p class="kep"></p>
+            <ul>
+                <li>
+                    <p>Konditerem</p>
+                    <p>Légkondícionált termünkben futópadok, has-, hát- és karizom-fejlesztő gépek, fekvenyomók, súlyzók várják kedves vendégeinket.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>nap</td>
+                                <td>teremfelelős edző</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>hétfő</td>
+                                <td>Kocsis Péter</td>
+                            </tr>
+                            <tr>
+                                <td>kedd</td>
+                                <td>Varga Éva</td>
+                            </tr>
+                            <tr>
+                                <td>szerda</td>
+                                <td>Sándor László</td>
+                            </tr>
+                            <tr>
+                                <td>csütörtök</td>
+                                <td>Gyökös Alexandra</td>
+                            </tr>
+                            <tr>
+                                <td>péntek</td>
+                                <td>Ember Nóra</td>
+                            </tr>
+                            <tr>
+                                <td>szombat</td>
+                                <td>Nagy Nándor</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    <p>Uszoda</p>
+                    <p>Úszni kívánó vendégeink rendelkezésére áll 25*100*3m-es gyorsúszó medencénk, ezen kívül jacuzzi és melegvízű pancsoló várja a pihenni vágyókat.</p>
+                </li>
+                <li>
+                    <p>Szauna</p>
+                    <p>Kombinált szaunánk 4 °C-os vízű csobbanóval ideális választás a pihenni, feltöltődni vágyóknak.</p>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</body>
+</html>

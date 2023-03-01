@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide&subset=latin,latin-ext);
+body{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    background-color: #99a;
+    margin: 0;
+}
+#oldal{
+    width: 960px;
+    margin: 0 auto;
+}
+#fejlec{
+    width: 960px;
+    height: 100px;
+    background: url('kek_eg.jpg');
+}
+#fejlec h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: yellow;
+    letter-spacing: 0.4em;
+}
+#fejlec h2{
+    font-family: 'Audiowide', cursive;
+    font-size: 1.1em;
+    text-align: center;
+    font-variant: small-caps;
+}
+#menu{
+    width: 960px;
+    height: 40px;
+    background: url('menu_hatter.png');
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+#menu ul{
+    margin: 0;
+    padding: 10px 30px;
+}
+
+#menu li{
+    display: inline;
+    list-style-type: none;
+    padding: 0 15px;
+}
+#menu a,
+#menu a:link,
+#menu a:visited{
+    color: #ddd;
+}
+#menu a:hover{
+    text-decoration: underline;
+}
+#menu a.kivalasztott{
+    color: yellow;
+}
+#tartalom{
+    width: 960px;
+    min-height: 400px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+#tartalom h1{
+    margin: 0;
+    padding: 1em;
+}
+.kep{
+    float: right;
+    padding-right: 20px;
+}
+.kep img{
+    width: 200px;
+}
+dl{
+    margin: 15px;
+}
+dt{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px 0;
+}
+dd{
+    margin-left: 50px;
+}
+table{
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px dotted #666;
+}
+th{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+fieldset{
+    margin: 0 20px;
+    padding: 20px;
+}

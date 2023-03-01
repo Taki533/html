@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Csendes Víz horgásztó</title>
+</head>
+
+    <div id="oldal">
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Kezdőlap</a></li>
+                <li class="aktiv"><a href="idojaras.html">Időjárás</a></li>
+                <li><a href="informacio.html">Információ</a></li>
+                <li><a href="eszkozok.html">Eszközök</a></li>
+            </ul>
+        </div>
+        <div id="folap">
+            <div id="fejlec">
+                <div id="logo"></div>
+                <div id="focim"><h1>Csendes Víz</h1><h2>horgásztó</h2></div>
+            </div>
+            <div id="tartalom">
+                <h1>Időjárás</h1>
+                <p>Holnap</p>
+                <p>A változó felhőzet mellett nem várható említést érdemlő csapadék. Az északnyugatira forduló szél átmenetileg mérséklődik, inkább csak északon kísérhetik élénk lökések.</p>
+                <p>Várható hőmérséklet: 14-16 °C</p>
+                <p>Vízhőmérséklet: 10 °C</p>
+                <p>Holnapután</p>
+                <p>A sok napsütés mellett csak időnként növekszik meg a felhőzet, és nem valószínű csapadék. A délnyugati szél megerősödik, időnként viharossá fokozódik.</p>
+                <p>Várható hőmérséklet: 13-14 °C.</p>
+                <p>Vízhőmérséklet: 11 °C</p>
+            </div>
+        </div>
+    </div>

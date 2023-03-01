@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div id="oldal">
+        <div id="focim"><h1>Balu vicces oldala</h1></div>
+        <div id="valasztek">
+            <h1>Mai menü:</h1>
+            <ul>
+                <li><a href="index.html">Kezdőlap</a></li>
+                <li><a href="viccek.html">Viccek</a></li>
+                <li><a href="bekuldes.html">Beküldés</a></li>
+                <li class="ittvagyok"><a href="top.html">Top beküldők</a></li>
+            </ul>
+        </div>
+        <div id="lenyeg">
+            <h1>Top beküldő</h1>
+            <p class="kep"></p>
+            <table class="top">
+                <tbody>
+                    <tr>
+                        <th>Név</th>
+                        <th>Beküldött viccek száma</th>
+                    </tr>
+                    <tr>
+                        <td>Elgya Pál</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Temere Tamara</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Kicsiab Orsi</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

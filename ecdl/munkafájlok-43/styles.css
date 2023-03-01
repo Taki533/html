@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Pirata+One&subset=latin-ext,latin);
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+    color: #4d2313
+}
+#honlap{
+    width:772px;
+    padding: 0;
+    margin: 5px;
+}
+#honlap_cim{
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    background: url('antik_cim.gif') no-repeat;
+}
+#honlap_felso{
+    width: 772px;
+    height: 76px;
+    background: url('antik_top.jpg') no-repeat;
+    font-family: 'Pirata One', cursive;
+    font-size: 16px;
+}
+#honlap_felso a,
+#honlap_felso a:link,
+#honlap_felso a:visited{
+    color: yellow;
+    text-decoration: none;
+}
+#honlap_felso a:hover{
+    text-decoration: underline;
+}
+
+#honlap_kozepso{
+    width: 772px;
+    min-height: 400px;
+    background: url('antik_middle.jpg') repeat-y;
+}
+#honlap_also{
+    width: 772px;
+    height: 50px;
+    background: url('antik_bottom.jpg') no-repeat;
+}
+#menu1{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 120px;
+    top: 11px;
+    left: 77px;
+}
+#menu2{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 120px;
+    top: -11px;
+    left: 243px;
+}
+#menu3{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 120px;
+    top: -33px;
+    left: 457px;
+}
+#menu4{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 120px;
+    top: -55px;
+    left: 612px;
+}
+#tartalom{
+    width: 630px;
+    margin: 0 auto;
+}
+
+#tartalom h1{
+    margin: 0;
+    padding: 0;
+}
+#tartalom h2{
+    font-size: 1.2em;
+}
+
+table{
+    margin: 20px auto;
+}
+th{
+    background-color: #800;
+    color: #ff0;
+}
+td{
+    padding: 0;
+}
+
+.konyv{
+    text-align: right;
+    margin: 0;
+}
+.konyv img{
+    width: 160px;
+    padding: 10px;
+}
+.konyv2{
+    float: right;
+}
+dt{
+    font-weight: bold;
+    font-size: 1.3em;
+    font-variant: small-caps;
+    padding: 10px;
+}
+dd{
+    line-height: 2em;
+}
+
+fieldset{
+    padding: 20px;
+}
+.form_sor{
+    margin: 20px 0;
+}
+.form_cimke{
+    float: left;
+    width: 150px;
+}
+.form_elem{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+input[type='text']{
+    width: 300px;
+}

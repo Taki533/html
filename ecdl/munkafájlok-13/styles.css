@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Sarina&subset=latin,latin-ext);body{
+    background: url('water.jpg');
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+#oldal{
+    width: 960px;
+    margin: 5px;
+}
+
+#menu{
+    float: left;
+    width: 160px;
+    background-color: #02688e;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 100px;
+
+}
+#folap{
+    float: left;
+    margin: 10px;
+    width: 780px;
+    min-height: 154px;
+    background-color: white;
+}
+#fejlec{
+    height: 100px;
+}
+#logo{
+    background: url('logo.gif') no-repeat;
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+#focim{
+    width: 620px;
+    float: left;
+}
+#focim h1{
+    font-family: 'Sarina', cursive;
+    font-size: 3em;
+    margin: 0.2em;
+    text-align: center;
+}
+#focim h2{
+    font-family: 'Sarina', cursive;
+    font-size: 2em;
+    margin: 0.2em;
+    text-align: center;
+}
+
+#menu a,
+#menu a:link,
+#menu a:visited{
+    color: white;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+#menu li.aktiv{
+    list-style-type: square;
+    color: yellow;
+}
+#menu li.aktiv a{
+    color: yellow;
+}
+#tartalom{
+    margin-top: 30px;
+    padding: 10px;
+}
+#tartalom h1{
+    font-size: 1.8em;
+    text-align: center;
+}
+#tartalom h2{
+    font-size: 1.4em;
+}
+
+.kep_kozep{
+    text-align: center;
+}
+.kep_kozep img{
+    border: 2px dashed #66f;
+
+}
+dt{
+    padding: 10px 0;
+    font-weight: bold;
+}
+dd{
+    margin-left: 30px;
+    font-size: 0.9em;
+}
+
+.urlapsor{
+    margin: 25px;
+}
+
+.cimke{
+    float: left;
+}
+.urlapelem{
+    clear: right;
+}
+fieldset div:first-child{
+    width: 120px;
+}
+
+input[type='text']{
+    width: 300px;
+}
+
+table{
+    width: 90%;
+}
+caption{
+    font-size: 1.2em;
+}
+td{
+    padding: 3px;
+}
+
+table img{
+    width: 200px;
+}

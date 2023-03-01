@@ -1,0 +1,105 @@
+body{
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    background-color: #cff;
+}
+
+/* táblázat stíluselemek */
+
+table{
+    border-top: 3px solid #ccc;
+    border-left: 3px solid #ccc;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 20px auto;
+}
+th,td{
+    padding: 7px;
+    margin: 0;
+    border: 1px dotted #ccc;
+}
+table .kiemelt{
+    color: green;
+}
+
+/* ûrlap stíluselemek */
+
+#urlap{
+    width: 400px;
+}
+#urlap fieldset{
+    padding: 8px;
+}
+
+/* egyéb stíluselemek */
+
+#felso, #also{
+    padding: 5px;
+    margin: 0 auto;
+    width: 960px;
+    background-color: white;
+    
+}
+#also{
+    min-height: 500px;
+}
+#felso h1{
+    font-size: 18px;
+}
+#cim{
+    height: 55px;
+    line-height: 55px;
+}
+#cim h1{
+    font-weight: normal;
+}
+#menu{
+    background-color: #39c;
+    height: 20px;
+}
+#menu ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline;
+    margin: 0 40px;
+    padding: 2px;
+    font-weight: bold;
+    line-height: 20px;
+}
+#menu ul li.kiemelt{
+    background-color: white;
+}
+#menu a, #menu a:link, #menu a:visited{
+    text-decoration: none;
+    color: white;
+}
+#menu a:hover{
+    color: yellow;
+}
+#menu ul li.kiemelt a{
+    color: black;
+}
+#also h2{
+    margin: 0;
+    padding: 10px 0;
+}
+#also h3{
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0;
+}
+#also h4{
+    font-size: 13px;
+    margin: 0;
+    padding: 10px 0;
+}
+.oldalkep{
+    float: left;
+    margin: 5px;
+}
+.clear{
+    clear: both;
+}

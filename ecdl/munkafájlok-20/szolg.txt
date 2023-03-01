@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<title>Expresso internet-kávézó</title>
+</head>
+    <div id="page">
+        <div id="head">
+            <h1>E<span>x</span>presso<br>internet kávézó</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html"><span>R</span>ólunk</a></li>
+                <li class="current"><a href="szolg.html"><span>S</span>zolgáltatásaink</a></li>
+                <li><a href="kapcs.html"><span>K</span>apcsolat</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h1>Szolgáltatásaink</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>szolgáltatás</th>
+                        <th>ára</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Internet</td>
+                    </tr>
+                    <tr>
+                        <td>15 perc</td>
+                        <td>100 Ft.</td>
+                    </tr>
+                    <tr>
+                        <td>30 perc</td>
+                        <td>180 Ft.</td>
+                    </tr>
+                    <tr>
+                        <td>60 perc</td>
+                        <td>300 Ft.</td>
+                    </tr>
+                    <tr>
+                        <td>120 perc</td>
+                        <td>500 Ft.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Kávé</td>
+                    </tr>
+                    <tr>
+                        <td>Eszpresszó</td>
+                        <td>350 Ft.</td>
+                    </tr>
+                    <tr>
+                        <td>Ír kávé</td>
+                        <td>500 Ft.</td>
+                    </tr>
+                    <tr>
+                        <td>Cappuccino</td>
+                        <td>440 Ft.</td>
+                    </tr>
+                    <tr>
+                        <td>Caffee latte</td>
+                        <td>400 Ft.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Egyéb szolgáltatások</td>
+                    </tr>
+                    <tr>
+                        <td>Nyomtatás - fekete-fehér</td>
+                        <td>20 Ft./A4</td>
+                    </tr>
+                    <tr>
+                        <td>Nyomtatás - színes</td>
+                        <td>30 Ft./A4</td>
+                    </tr>
+                    <tr>
+                        <td>Nyomtatás - fotó min.</td>
+                        <td>120 Ft./A4</td>
+                    </tr>
+                    <tr>
+                        <td>Fénymásolás</td>
+                        <td>15 Ft./A4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</html>

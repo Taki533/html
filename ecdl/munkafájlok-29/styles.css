@@ -1,0 +1,125 @@
+body{
+    background-color: #ccc;
+    font-family: serif;
+}
+
+/* fejléc stíluselemek */
+
+#fejlec{
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0;
+    background: url('fhatter.jpg') repeat-x;
+}
+#logo{
+    float: left;
+    width: 160px;
+    height: 80px;
+    background: url('logo.gif') left center no-repeat;
+}
+#cim{
+    height: 80px;
+}
+#cim h1{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+#cim h2{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* menü stíluselemek */
+
+#menu{
+    background-color: #ffb89d;
+    width: 160px;
+    float: left;
+    margin: 10px;
+    padding: 0;
+    font-family: verdana, sans-serif;
+}
+#menu h1{
+    background-color: #c57658;
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    color: yellow;
+    text-align: center;
+}
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+}
+#menu li a{
+    display: block;
+    padding: 10px;
+}
+#menu li a:link,
+#menu li a:visited{
+    text-decoration: none;
+    color: black;
+}
+#menu li a:hover,
+#menu li a.aktiv{
+    background-color: #ffd6c7;
+}
+
+/* táblázat stíluselemek */
+
+table{
+    margin: auto;
+}
+th, td{
+    padding: 5px 20px;
+}
+th{
+    background-color: black;
+}
+td{
+    background-color: #ccc;
+}
+
+/* ûrlap stíluselemek */
+
+input[type='text']{
+    width: 200px;
+    background-color: #faa;
+}
+
+/* egyéb stíluselemek */
+
+#kozep{
+    width: 960px;
+    min-height: 500px;
+    background-color: white;
+    margin: 0 auto;
+}
+#tartalom{
+    float: left;
+    margin: 10px;
+    padding: 0;
+    width: 760px;
+}
+.hamarosan_img{
+    display: block;
+    margin: 10px auto;
+}
+img.belso{
+    float: right;
+}
+.clear{
+    clear: both;
+}
