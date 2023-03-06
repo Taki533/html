@@ -51,3 +51,8 @@ Rgba: alafacsatornát is lehet megadni
 
 Hsl: (hue stauration lightness hosszaban)
 Hsla: alafacsatornát is meglehet adni
+
+
+Házi:
+ készíts egy szivárványos zászlót
+táblázat egy szín különnözőárnyalatával 5cella 5 sor
