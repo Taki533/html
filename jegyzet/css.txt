@@ -37,3 +37,17 @@ szóköz: leszármazott bent lévő ségre utal azon belül valahol
 > : (gyerek szelektor)
 + : (Sibling selector)
 ~ : ( általános testvér szelektor )
+
+				Css színek
+Többféle módszerrel lehet megadni:
+
+névvel 140 alap színnév van alapból bent
+
+Rgb érték red green blue valueval melyik színből mennyi legyenbenne pl: 100;0;0 (vörös) 0;0;0 (fekete) 255;255;255 (fehér)
+
+alfa csatornával átlátszatlanságot muatatja 1 nem látható a mögette lévő dolog 0 telejsen átlátszó
+hexadecimális szín megadás: #RRGGBB 00tól ff ig vannak a számok
+Rgba: alafacsatornát is lehet megadni
+
+Hsl: (hue stauration lightness hosszaban)
+Hsla: alafacsatornát is meglehet adni
