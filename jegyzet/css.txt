@@ -1,0 +1,39 @@
+Css=cascading stlye sheets
+
+A css meg mondja a kinézetét a HTMLnek
+
+					Css Syntax
+
+selectorból és declaráló(leíró blook/megadó block) blockból áll
+
+Deklarálóban szabályok vannak pl: tulajdonság:érték
+
+					Css selectors
+
+kiválasztja melyik elemekre vonatkozzon a tulajdonság
+
+Kategóriák:
+	egyszerű
+	kombinált szelektorok
+	pseudo class szelektorok
+	pseudo element selector
+	attribútum selector
+
+				Egyszerű szelektorok
+
+Css unverzális selector: * minden HTML elemet kiválaszt	
+
+Csoport szelektor: az elem szelektor a megadot HTML elem neve minden olyanra vonatkozik pl: body, h1, h2, stb
+
+osztály szelektor: meg adott osztályu elemeket választ ki. HTMLben a <class>  Css-ben a . (pont úgy konkréta) a jele.
+egy elemnek több classa lehet. egy classban többféle elem is lehet.
+
+egyed szelektor: egy elemre vonatkozik. HTMLben Id tulajdonság cssben Hasmark(#)/kettős kereszt(#)
+
+				Css kombinátorok
+,: mindegyik felsoroltra érvényes
+
+szóköz: leszármazott bent lévő ségre utal azon belül valahol
+> : (gyerek szelektor)
++ : (Sibling selector)
+~ : ( általános testvér szelektor )
