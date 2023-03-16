@@ -112,3 +112,10 @@ td.kiemelt{
     padding: 10px;
     text-align: center;
 }
+* {
+    border: 1px solid red
+}
+
+div {
+    border: 3px solid blue;
+}

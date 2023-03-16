@@ -1,0 +1,35 @@
+.sidebar {
+	float: left;
+	width: 20%;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.sidebar li a:hover {
+	background-color: #555;
+	color: white;
+}
+header {
+	background-color: #555;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.main-content {
+	margin-left: 20%;
+	padding: 20px;
+}
