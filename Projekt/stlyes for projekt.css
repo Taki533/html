@@ -1,19 +1,19 @@
 .sidebar {
 	float: left;
-	width: 20%;
-	background-color: #f1f1f1;
+	width: 15%;
+	height: 150%;
 	padding: 20px;
 }
 
 .sidebar ul {
-	list-style-type: none;
+	list-style-type: circle;
 	margin: 0;
 	padding: 0;
 }
 
 .sidebar li a {
 	display: block;
-	color: #000;
+	color: #ffffff;
 	padding: 8px 16px;
 	text-decoration: none;
 }
@@ -22,8 +22,12 @@
 	background-color: #555;
 	color: white;
 }
+
+li {
+	color: white;
+}
+
 header {
-	background-color: #555;
 	color: white;
 	padding: 20px;
 	text-align: center;
@@ -33,3 +37,15 @@ header {
 	margin-left: 20%;
 	padding: 20px;
 }
+body {
+background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--aT73XKL3--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+background-size: 100% 70%;
+}
+p {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
