@@ -15,7 +15,6 @@
 	display: block;
 	color: #ffffff;
 	padding: 8px 16px;
-	text-decoration: none;
 }
 
 .sidebar li a:hover {
@@ -38,7 +37,7 @@ header {
 	padding: 20px;
 }
 body {
-background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--aT73XKL3--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+background-image:url(./Background.png);
 background-size: 100% 70%;
 }
 p {
