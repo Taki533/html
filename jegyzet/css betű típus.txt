@@ -2,3 +2,39 @@ font-family: ezzel állítjukbe mögé kell írni amilye akarunk
 	Timesnew roman, serif: talpas betűtipusok
 	arial, helvetica: talpatlan
 	monospace: ugyan olyan szélesek a betűk
+		
+
+Web safe fonts:
+	Arial
+	Verdana
+	tahoma
+	trebuchet MS
+	Times new roman
+	Georgia
+	garamond
+	courier new
+
+általános/generic típusok:
+		serif:talpas
+		san-serif:talpas
+		monospace:ugyan akkor a betük szélesége
+		
+
+Font stlyes:
+	Normal: a textet normélisan muatatja
+	Italic: a szöbeget italicokban muatatja
+
+Font weight:
+	normal: alap
+	bold: félkövér
+
+Font variant:
+	normal
+	small-caps:kis kapitális
+
+Font size:
+	10px,20px, stb: a betű nagyság
+
+HF: 
+lipsum.comrol 10 bekezdésnyi szöveget kérjünk le formázzuk meg mindet másként legyen háttér szín kép pozício
+sorközök stb midegyi k más betü készlettel
