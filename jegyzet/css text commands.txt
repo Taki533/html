@@ -1,0 +1,10 @@
+szöveg formázások:
+textel kezdődők:
+	color: színt állít
+	text aligment: blokkonbelüli szöveget igazítja (left,right,center,justify)
+	 aling last: az utolsó sort formázza
+	 aling vertical: soron belüli függőleges igazítás
+	text decoration: 
+	text decoration line : overline underline lien thrugh
+	text decoration-color: színt lehet megadni
+	text transform: kisbetűsít vagy nagy betűsít 

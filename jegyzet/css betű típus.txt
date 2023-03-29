@@ -1,0 +1,4 @@
+font-family: ezzel állítjukbe mögé kell írni amilye akarunk
+	Timesnew roman, serif: talpas betűtipusok
+	arial, helvetica: talpatlan
+	monospace: ugyan olyan szélesek a betűk

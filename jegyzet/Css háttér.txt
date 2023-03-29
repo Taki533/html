@@ -1,0 +1,34 @@
+background-color háttér szín
+background image háttérkép
+background repeat ismétlés
+background-attachment igazítás
+background position a hátér pozícionálása
+
+background color megadása
+4 féle képpen:  hex kód
+		név
+		
+
+
+background image
+	url(a képneve) lehet több egyszerre háttér kép és háttér szín
+background-repeat
+	alapeset x és y irányba ismétlődik
+	norepeat nincs ismétlődés
+	repeat x visszintesen ismétlődik
+	repeat y függő legesen ismétlődik
+	space: a lehető legnagyobbra hogy bele férjen
+	round kicsit átalakíthatja hogy hely nélkül beleférjen
+	
+background attachment
+		scroll: a háttér a képpel gördül
+		fixed: ott marad
+		local: az elemtartalomal együtt scrollol
+
+background-position: a háttér helye hogy alul fölül jobbra balra merre helyezkedjen el
+
+	
+
+
+	HÁZi:
+Html oldal 5 blok elem különböző hátterekkel legaláb 3 kép
