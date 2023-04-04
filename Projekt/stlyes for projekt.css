@@ -1,9 +1,13 @@
+
 .sidebar {
 	float: left;
 	width: 15%;
-	height: 150%;
+	height: 550px;
 	padding: 20px;
+	background-color: azure;
+	margin-top: 0px;
 }
+
 
 .sidebar ul {
 	list-style-type: circle;
@@ -13,7 +17,7 @@
 
 .sidebar li a {
 	display: block;
-	color: #ffffff;
+	color: #000000;
 	padding: 8px 16px;
 }
 
@@ -27,15 +31,19 @@ li {
 }
 
 header {
-	color: white;
+	color: black;
 	padding: 20px;
 	text-align: center;
+	background-color: azure;
+	width: 100%;
+	margin: auto;
 }
 
 .main-content {
 	margin-left: 20%;
 	padding: 20px;
 }
+
 body {
 background-image:url(./Background.png);
 background-size: 100% 70%;
@@ -47,4 +55,5 @@ p {
 h2 {
 	color: white;
 }
+
 
