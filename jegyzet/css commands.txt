@@ -1,0 +1,32 @@
+background-position
+	X%y%
+	xpos/ypos: mérték egységgel kell megadni (pl:px)
+background-repeat: ismétli a hátteret
+	norepeat
+	repeat x/y
+	space: kitölti a helyet anélkül hogy levágna részt
+	round: teljesen kitölt nem hagy helyet (ismétléssel)
+background-size: háttér méret
+	auto: default
+	length
+	width
+	percentage: százalékos megadás
+	cover: ki nyújtja akképet hogy lefedje a képet
+	contain: a kép teljesen látható lehet
+
+border*: (border családot jelent) ez egy rövidítés ebben mindent egyszerre lehet megadni szélesség,típus és szín (midnél meglehet adni ezeket töbször nem írom le)
+border-block: alul felül keret
+border-bottom: alsó keret
+border-top: felső leret
+border-right: jobb keret
+border:left: bal keret
+border-inline: oldalsó keretek
+border-collapse: be állítja a keret össze vonását
+	seprate: (default) külön keretek
+	collapse: összevonja a kereteket (egy keret)
+	
+
+
+
+	
+	
