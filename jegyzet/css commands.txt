@@ -1,3 +1,27 @@
+Mindenképpen tudni kell ezeket!!!!
+
+*=minden elemet jelent (pl itt minden backkground elemet))
+background*: az összes background elemet tudni kell, ez a verzió az összet egysorban állít(hat)ja
+	background-attachment= a háttér kép gördíthatősége
+		Tulajdonságai:
+			scroll: ez az alap beállítás ilyenkor a háttér gördül 
+			fixed: nem fog gördülni a háttér
+			local: a háttér az elemekkel gördül
+			inital: kezdeti értékre állítja (reset to default) (ezek mindegyiknél elő fordulnak)
+			inherit: örökölt értékre állítja (ezek mindegyiknél elő fordulnak)
+
+	background-color: háttér szín
+		tulajdonságai:
+			color: szín megadás
+			transparent: átlátszó ez az alap beállítás
+
+	background-image:
+		tulajdonságai:
+			url: urlel egy képet adhatunk meg
+			none nincs
+			conic-gradient: kúpos színát menet
+			linear-gradient: vonalas átmenet
+
 background-position
 	X%y%
 	xpos/ypos: mérték egységgel kell megadni (pl:px)
@@ -24,6 +48,41 @@ border-inline: oldalsó keretek
 border-collapse: be állítja a keret össze vonását
 	seprate: (default) külön keretek
 	collapse: összevonja a kereteket (egy keret)
+border-color: színt lehet megadni
+border-image: képet használ keretként
+	-source:forrás
+	-slice: rész
+	-width: szélleslg
+	-outset: külső széthúzás
+	-repeat: ismétlés
+border-spacing:keretek közti táv
+border-style:keretstílus
+	-none: default 
+	-hidden:rejtett
+	-dotted:pontozott
+	-dashed:vonalas - - - - - - ez e
+	-groove: 3ds
+	-double:duble
+	-ridge: 3ds
+
+box*
+
+box-shadow: árnyékot ad
+	-none:nincs
+	-h-offset:vizszintes eltolás
+	-v-offset:függőleges eltolás
+	-blur:elmosás
+	-spread:elterjedve mennyire legyen
+	-color:színe
+box-sizeing
+	-content-box:tartalmat érinti csak a border és padding nincs benne
+	-border-box: szélesség magasság paddingal borderrel is
+clear: lehet-e mellete elem
+	-none: nemlehet
+	-left. balrol nincs mellete érték
+	-right: jobbról incs mellete érték
+	-both egyik oldalon sincs melete semmi
+cursor: egér kurzor képét alakítja át
 	
 
 
