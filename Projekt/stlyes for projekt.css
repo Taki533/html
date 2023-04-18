@@ -2,7 +2,7 @@
 .sidebar {
 	float: left;
 	width: 15%;
-	height: 550px;
+	height: 600px;
 	padding: 20px;
 	background-color: azure;
 	margin-top: 0px;
@@ -55,5 +55,3 @@ p {
 h2 {
 	color: white;
 }
-
-
