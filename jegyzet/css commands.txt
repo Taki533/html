@@ -83,9 +83,44 @@ clear: lehet-e mellete elem
 	-right: jobbról incs mellete érték
 	-both egyik oldalon sincs melete semmi
 cursor: egér kurzor képét alakítja át
-	
 
+color: értéke valamilyen színmegadási módon megadott érték
 
+display: elemek megjelenítési tipusának át állítása
+	none: sehogy nem jelenik meg
+	inline: inlineként jelenik meg
+	block: block elemként jelenik meg
+	inline-block:inline de van szélessége magassága
 
-	
-	
+flex: tulajdonság részletesn később
+
+float: lebegtetés
+	none:nincs
+	left/right:arra az oldalra lebeg
+fonts: betü készlet rövid megadási módja
+@font-race
+font-size:betü méret
+	medium,xx-small,x-small,small,large,x-large, xx-larger,small,larger
+	length: meg lehet adni számmal
+font-stretch:betü nyújtás
+	condensed: összenyott
+	normal: nomál
+	expanded:nyújtott
+font-style:
+	normal:
+	italic:
+	obliquee
+font-variant: 
+	normal
+	small-caps:kis kapitális
+font-weight: betüsúlya
+	normal:
+	bold
+	bolder
+	light
+	lighter
+grid: egy grid tualjdonságokat álklít be késsőb lesz róla szó	
+height:
+width:
+list-style: lista jelölő elem megadása
+	list-style-type
