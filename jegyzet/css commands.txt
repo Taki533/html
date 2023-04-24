@@ -123,4 +123,29 @@ grid: egy grid tualjdonságokat álklít be késsőb lesz róla szó
 height:
 width:
 list-style: lista jelölő elem megadása
-	list-style-type
+	list-style-type: lista alalap jelzései
+		dics
+		circle
+		lower-alpha
+		Upper-roman
+list-style-position
+		inside: a pont benne van a keretben
+		outside: a pont a kereten kívül van
+
+Margin:a margó megadása
+	hosszúság,százalék,vagy auto lehet az értéke
+mask*
+	max-height: maximális maggaság kisseb lehet nagyobb nem
+	min-height: legkisseb magasság nagyobb lehet kisseb nem	
+opacity: átlátszatlanság
+visible: kilóg a dobozból ha nem fér bele
+hidden: wltünteti a kilógó részt
+clip: nem lehet görgetni
+scroll: levágja a tartalmat de görgethető
+padding: bélés és keret távolsága
+position: elem elhelyezési módszere
+	fixed:böngésző ablakhoz képest jelenik meg
+	relative: normál helyéhez képest
+text-aling: szöveg igazítás
+	
+	
