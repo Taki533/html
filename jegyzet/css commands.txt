@@ -138,14 +138,48 @@ mask*
 	max-height: maximális maggaság kisseb lehet nagyobb nem
 	min-height: legkisseb magasság nagyobb lehet kisseb nem	
 opacity: átlátszatlanság
+
 visible: kilóg a dobozból ha nem fér bele
+
 hidden: wltünteti a kilógó részt
+
 clip: nem lehet görgetni
+
 scroll: levágja a tartalmat de görgethető
+
 padding: bélés és keret távolsága
+
 position: elem elhelyezési módszere
 	fixed:böngésző ablakhoz képest jelenik meg
 	relative: normál helyéhez képest
 text-aling: szöveg igazítás
 	
-	
+text-indent:elsősor behúzása
+
+text-shadow: szöveg árnyék
+	h-shadow: horizontal eltolás
+	v-shadow: vertical eltolás
+	blur-radius:blur
+
+text-transfor: szöveg átalakítás
+	none: nincs átalakítás
+	capitalize: minden szó első betüje nagybetűs
+	uppercase:mind nagybetűs
+	lowercase:minden kisbetűs
+
+transform: 2 és 3d transzfomációkat lehet vele csinálni
+	scale: méretet állít
+	rotate:forgatás
+	skew: nyújtás
+
+transition: átmenet
+	be lehet állítani hogy egy érték mennyi idő allat érje el a megadott értéket
+
+white-sapce: a space és a tab stb nem látható karakterek kezelése
+	normal: alap megjelenés össze vonja a white space karaktereket eggyé a szöveg ugyan úgy törik
+	nowarp: egy hosszú sor lesz nem törik
+	pre:white spaceek nem vonódnak össze neternél törik minta a pre html tag
+
+width: szélleség
+
+z-index: a képernyőből való kitérés előre vagy hátra
