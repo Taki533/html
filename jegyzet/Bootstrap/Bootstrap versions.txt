@@ -1,0 +1,3 @@
+híres ccs keretrendszer(framework: előre legyártott eszközök)
+Töb féle verzió 3, 4, 5 (mi az öt-öt használjuk)
+2fajta beszerzés letöltés/online becsatolás

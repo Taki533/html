@@ -15,7 +15,30 @@ grid-auto columns
 grid-auto flow
 
 grid: ezzel mind a hatot egyszerre lehet megadni
-
 grid-container: grid konténer
-
 template-areas
+grid-auto-rows: Be állítja a nem méretezett sorokat
+Értékei:
+	auto
+	min-content
+	max-content
+grid-auto-column: Be állítja a nem méretezett oszlopokat
+grid-auto-flow: auto mata elemek hova ilesztődjenek be a gridben
+Értékei:
+	column
+	row
+
+grid-area: ezzel mondjuk meg mettől meddig tart az elem a gridben "vagy"(|) elnevezzük
+részei:
+grid-row start
+grid-row-end
+grid-column-start
+grid-column-end
+
+grid-column
+	start
+ 	end
+grid-row
+start
+end
+
