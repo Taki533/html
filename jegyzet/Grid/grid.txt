@@ -42,3 +42,34 @@ grid-row
 start
 end
 
+becsatolási opciók
+letöltve vagy egy távol gépről használva lehet használni
+
+Containerek
+
+container: responsive fix szélleségü elem
+
+container fluid: teljes széleségü konténer
+
+extra small: kisseb mint 576px
+smallnagyobb vagy egyenlő 576px
+medium: kisseb vagy egyenlő 768px
+Large:kiseb vagy egyenlő 992px
+Extra large:kisseb vagy egyenlő mint 1200px
+XXL: kisseb vagy egynlő mint 1400px
+	
+	margó beállítások
+m-(szám)0-5ig
+ml-
+mr-
+mt-
+mb-
+my-(alul felül)
+mx-(jobbra balra)
+(mind 0-5ig)
+
+		Border
+width
+color
+bg-(háátéer szín) primary,succes, info, warning, dar,light
+text-(szinek ugyan azok mint a háttérnél+) muted, white, body (fekete fehérnél adható átlátszatlanság)
