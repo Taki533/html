@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Parallax Scorllig Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="#" class="active">CSS</a></li>
+                <li><a href="java.html">Java</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+                <li><a href="csharp.html">C#</a></li>
+                <li><a href="c++.html">C++</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="stars.png" id="stars">
+            <img src="moon.png" id="moon">
+            <img src="mountains_behind.png" id="mountains_behind">
+            <h2 id="text">CSS nyelv</h2>
+            <a href="#sec" id="btn">Explore</a>
+            <img src="mountains_front.png" id="mountains_front">
+        </section>
+        <div class="sec" id="sec">
+            <h2>CSS</h2>
+            <pre>CSS (Cascading Style Sheets) egy stílusleíró nyelv a weboldalak megjelenítésének formázására. A CSS különválasztja az oldal tartalmát az oldal stílusától, ami 
+                lehetővé teszi a különböző eszközök és kijelzők számára történő könnyebb alkalmazkodást.
+                A CSS leíró nyelv segítségével lehetőség van arra, hogy meghatározzuk az oldal színeit, betűméreteit, betűtípusokat, elrendezéseit és sok más vizuális jellemzőt.
+                A CSS a webdesign szerves részét képezi és elengedhetetlen az esztétikus és funkcionális weboldalak kialakításához. A CSS-t együtt használják az HTML-el és a 
+                JavaScript-tel, hogy együttműködve lehetővé tegyék a weboldalak teljes funkcionalitását és megjelenését.
+                
+                A CSS folyamatosan fejlődik, és számos új funkcióval és technológiával rendelkezik, amelyek lehetővé teszik a webdesignerek számára, hogy egyre vonzóbb és 
+                funkcionalitásban gazdagabb weboldalakat hozzanak létre.
+                A CSS lehetővé teszi az oldalak dinamikus formázását, mely azt jelenti, hogy az oldalak stílusát nem csak az alapértelmezett beállítások határozzák meg, hanem 
+                dinamikusan változtatható a felhasználói interakciók vagy más események hatására. Például, ha egy felhasználó egy gombra kattint, akkor a CSS segítségével meg 
+                lehet változtatni a gomb kinézetét, hogy visszajelzést adjon a felhasználónak.
+
+                A CSS továbbá lehetővé teszi a weboldalak reszponzív kialakítását, ami azt jelenti, hogy az oldalak automatikusan alkalmazkodnak a különböző eszközök és kijelzők
+                 méreteihez. Ez különösen fontos a mai mobilorientált világban, ahol egyre többen használnak okostelefonokat és tableteket a weboldalak böngészésére.
+                A CSS a webdesignerek és fejlesztők számára nagyfokú rugalmasságot és kreativitást biztosít a weboldalak megjelenésének kialakításában. Továbbá, a CSS támogatása 
+                szinte minden modern böngészőben megtalálható, így az általa kialakított stílusok és formázások szinte minden felhasználó által láthatóak lesznek.
+                Összességében, a CSS az egyik legfontosabb technológia a webdesign területén, amely elengedhetetlen az esztétikus, funkcionális és reszponzív weboldalak kialakításához.
+                Ahhoz, hogy a CSS segítségével teljesen testre szabjuk a weboldalak megjelenését, fontos, hogy ismerjük a CSS nyelv struktúráját és a különböző stílusleíró szabályokat.
+                 A CSS szabályai különválasztják az oldal tartalmát az oldal stílusától, így a HTML kód és a CSS szabályok elkülönítése lehetővé teszi, hogy egyszerűbben változtatható 
+                 legyen az oldal kinézete.
+
+                A CSS használata lehetővé teszi a weboldalak különböző területeinek stílusát külön-külön meghatározni. Az egyes HTML elemekhez hozzárendelt CSS szabályok meghatározzák a 
+                betűtípust, a betűméretet, a színt, a keretet, a kitöltést és a pozíciót az oldalon.
+                Az alapvető CSS szintaxis három fő részből áll: a szelektorokból, a tulajdonságokból és a tulajdonságértékekből. A szelektorok azok az HTML elemek, amelyekhez hozzárendeljük
+                 a CSS szabályokat, míg a tulajdonságok meghatározzák az elem kinézetét. A tulajdonságértékek pedig azok az értékek, amelyeket a tulajdonságokhoz rendelünk, mint például a betűméret,
+                 a szín vagy a margók
+                A CSS azonban nem csak a statikus elemek stílusát határozza meg, hanem lehetővé teszi az oldalak interaktív formázását is. Például, ha egy felhasználó rámutat az egérrel egy elemre, a 
+                CSS segítségével meg lehet változtatni az elem kinézetét, hogy a felhasználó figyelmét felhívjuk.
+                Az utóbbi években a CSS3, a legújabb CSS verzió bevezetett számos új funkciót és lehetőséget a webdesignerek számára, mint például az árnyékok és színháttér gradiens használatát, animációk,
+                 áttűnések és sok más vizuális effektusok használatát.
+                Összességében, a CSS egy rendkívül fontos eszköz a webdesign területén, amely lehetővé teszi a weboldalak teljes stílusának testreszabását. A CSS használata megkönnyíti a weboldalak esztétikusabbá,
+                 funkcionálisabbá és könnyen kezelhetővé tételét, így nélküle nehéz lenne a mai modern weboldalak kialakítása.
+            </pre>
+        </div>
+
+        <script>
+            let stars = document.getElementById('stars');
+            let moon = document.getElementById('moon');
+            let mountains_behind = document.getElementById('mountains_behind');
+            let text = document.getElementById('text');
+            let btn = document.getElementById('btn');
+            let mountains_front = document.getElementById('mountains_front');
+            let header = document.querySelector('header');
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px';
+                moon.style.top = value * 1.05 + 'px';
+                mountains_behind.style.top = value * 0.5 + 'px';
+                mountains_front.style.top = value * 0 + 'px';
+                text.style.marginRight = value * 2.5 + 'px';
+                text.style.marginTop = value * 0.5 + 'px';
+                btn.style.marginTop = value * 1.5 + 'px';
+                header.style.top = value * 0.5 + 'px';
+            })
+        </script>
+    </body>
+</html>

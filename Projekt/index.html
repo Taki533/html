@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Parallax Scorllig Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <ul>
+                <li><a href="index.html" class="active">Főoldal</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="java.html">Java</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+                <li><a href="csharp.html">C#</a></li>
+                <li><a href="c++.html">C++</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="stars.png" id="stars">
+            <img src="moon.png" id="moon">
+            <img src="mountains_behind.png" id="mountains_behind">
+            <h2 id="text">Főoldal</h2>
+            <a href="#sec" id="btn">Explore</a>
+            <img src="mountains_front.png" id="mountains_front">
+        </section>
+        <div class="sec" id="sec">
+            <h2>Információk</h2>
+            <pre>
+             
+                Üdvözölünk a programozás világában!
+
+                Az oldalunkon számos izgalmas témával foglalkozunk, amelyek közül az egyik legfontosabb a programozás. A CSS, C#, C++, Java és JavaScript nyelvekről fogunk 
+                beszélni, amelyek mind különböző funkciókkal és lehetőségekkel rendelkeznek.
+                Ha érdekel a webfejlesztés, akkor a CSS és JavaScript nyelvek kulcsfontosságúak számodra, míg a C++, C# és Java nyelvek az alkalmazásfejlesztésben játszanak
+                fontos szerepet. Végigvezetünk az információkon amiket gyűjtöttünk, és segítünk megérteni ezeknek a nyelveknek az előnyeit és korlátait.
+                Csatlakozz hozzánk, és fedezd fel a programozás világának lenyűgöző lehetőségeit!
+                
+                Készítők: Török Ádám, Kovács Máté, Takács Bence.
+            </pre>
+        </div>
+
+        <script>
+            let stars = document.getElementById('stars');
+            let moon = document.getElementById('moon');
+            let mountains_behind = document.getElementById('mountains_behind');
+            let text = document.getElementById('text');
+            let btn = document.getElementById('btn');
+            let mountains_front = document.getElementById('mountains_front');
+            let header = document.querySelector('header');
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px';
+                moon.style.top = value * 1.05 + 'px';
+                mountains_behind.style.top = value * 0.5 + 'px';
+                mountains_front.style.top = value * 0 + 'px';
+                text.style.marginRight = value * 2.5 + 'px';
+                text.style.marginTop = value * 0.5 + 'px';
+                btn.style.marginTop = value * 1.5 + 'px';
+                header.style.top = value * 0.5 + 'px';
+            })
+        </script>
+    </body>
+</html>
